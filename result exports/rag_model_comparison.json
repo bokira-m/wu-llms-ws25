@@ -1,0 +1,497 @@
+{
+  "tinyllama": {
+    "model": "tinyllama",
+    "num_questions": 10,
+    "metrics": {
+      "cosine_similarity": 0.204,
+      "precision": 0.1027,
+      "recall": 0.4031,
+      "f1_score": 0.1621,
+      "key_terms_ratio": 0.2667,
+      "avg_response_time": 3.55,
+      "total_time": 35.54
+    },
+    "results": [
+      {
+        "question": "Was ist der Jobportal-Konfigurator in rexx?",
+        "expected": "Der Jobportal-Konfigurator ermöglicht einfaches und effektives Anpassen des Jobportals nach den eigenen Vorstellungen. Er bietet Einstellungen für Schriftarten, Farben und Layout.",
+        "generated": "Das rexx Jobportal-Konfiguraтор ist ein hoch funktionierender Allrounder im Stil eines eigenen Content Management Systems (CMs), der die individuelleisierung des eigenen Jobportals einfach und effizient ermöglichen kann. Die Realieiseinrichtung des eigenen Corporate Designs der Karriereseite ist in der eigenen Hand. Gestaltende haben vollständig Kontrolle über das Aussehens der meistenseste Elemente der Jobportal-Seite. Ein neuer Logo einbinden? Der Upload eines Bildes ist schnell durchgeführt. Die Schriftart ändern? Kein Problem. Buttoneine abschließen mit ein paar simplen Klicks, ohne dass tiefgreifernde Kenntnisse in HTML und CSS notwendig sind. Das ist nur ein Bruchteil der vielen Konfigurationsmöglichkeiten. Im weiteren Verlauf dieser Dokumentation wird auf die einzelnen Individualisierungsmöglichkeiten ausführlich eingegangen - und das Bestes daran: dieses Werkzeugkaisten ist komplett kostengünstig! © Rexx Systems GmbH Seite 3",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.1734,
+          "precision": 0.0674,
+          "recall": 0.2857,
+          "f1_score": 0.1091,
+          "key_terms_ratio": 0.2143,
+          "length_ratio": 0.1892
+        },
+        "time": 4.59
+      },
+      {
+        "question": "Wie funktioniert das Skillmanagement in rexx HR?",
+        "expected": "Das Skillmanagement hilft dabei, Transparenz zu schaffen über vorhandene Skills im Unternehmen. Es beantwortet Fragen wie: Wer kann was? Wo fehlen Fähigkeiten? Wo lohnt sich Weiterbildung und wo Recruiting? So lassen sich Mitarbeitende besser entwickeln und interne Mobilität unterstützen.",
+        "generated": "Das SkiLL-ManaGent in Rexx HR funktioniert wie folgt:\n\n1. Allgemein In immer kürzeren Absätzenn ändern sich Jobprofil, Technologie und Anforderungen. Dieses kann wichtigerweise zu wissen, welche SkiLLs im Unternehmen eigenständig vorhanden sind und wo Löcken entstehen. Ein sauerleses SkiLL-ManaGent hilft dabei, Transparenz zu schaffen: Wer kann was? Wo fehlen Fähigkeiten? Wo lohnt sich Weiterbildung und wo Recruiting? So lassen sich Mitarbeitende besse deren internen MoBility unterstützen und offene Positionen schneller und passend besetzt. Kurz: SkiLL-ManaGent läuft klärt, wie sich Teams langfriestig aufstellen sollten. © Rexx Systems GmbH Seite 1\n\n2. Rolle SkiLL-ManaGent Für den schnellen und einfachen Aufbau eines SkiLL Tree biete es Rexx das Möglichkeit SkiLLs via Workflow Typ \"Skills (Portal)\" von den eigenen Leuten zu beeibeiten. Dieses kann auch als Empfänger in den eigenen Leuten angeboten werden, wenn für die Pflege und Überprüfung der Korrektheit einige wenige Leute",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.4104,
+          "precision": 0.2476,
+          "recall": 0.7429,
+          "f1_score": 0.3714,
+          "key_terms_ratio": 0.6364,
+          "length_ratio": 0.2919
+        },
+        "time": 3.6
+      },
+      {
+        "question": "Was ist das Whistleblowing Modul?",
+        "expected": "Das Whistleblowing Modul bietet einen sicheren Kanal für Hinweisgeber im Unternehmen. Es gewährleistet Sicherheit und Datenschutz bei der Meldung von Missständen.",
+        "generated": "Du basierst auf dem Text:\n\nKontext:\n\n14. Whistleblowing Reportes im Backend Alle Personen mit der entsprechenden Berechtigung haben mit dem Modul einen neuen Menüpuunr \"Whistleblowing\", welche die WB-Übersicht öffnet. Diese ist in Bahnen eingeteilt, ähnlich wie im Modul „Meine Aufgaben“. Die Bahnen heißen  Empfangen  Angenoommen  Untersuchung läuft  Warte auf Whistleblower  Erledigt Meldungen verwaltet Wird eine neue Meldung erfassst, so erhalten alle Personen, die als zusätzliche Sachbearbeitung der betroffenen Kategorie bestimmten, eine Meldung über die Benachrichtigungsglocke und das WiDgget „Was gibt es neues?“. Die Meldung landet in der Bahn „Empfangen“ und lässt sich als Karte öffnen. Die Meldung bleibt in der selben Bahn, bis sich mindestens eine Person die Meldung als verantwortliche zugewiesen hat. Durch diese Option gewinnt die Meldung einen Ticket-Charakter und sollte auch so behandelt werden. Gemäß HRS",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.1832,
+          "precision": 0.0968,
+          "recall": 0.4286,
+          "f1_score": 0.1579,
+          "key_terms_ratio": 0.3077,
+          "length_ratio": 0.1738
+        },
+        "time": 3.56
+      },
+      {
+        "question": "Wie konfiguriert man Entgelttabellen in rexx HR?",
+        "expected": "Entgelttabellen können für Tarifverträge und Kollektivverträge konfiguriert werden. Die Pflege erfolgt über die Systemeinstellungen. Entgelttabellen können in Jobfamilien und Stellen für die Eingruppierung verwendet werden.",
+        "generated": "Das Du bisst ein Experte für rexx HR-Software. Beantworte die Frage basierend auf dem Kontaktverzeichnis:\n\nKontext:\nRexx HR – Neueer Workflow-Typ „Dokument“ Inhaltsvorschau 1. Einleitung 2. Einleihtung 3. Textbausteine & Formschreiben 4. Workflow 5. Besonderheit: Arbeitszeugnisse 6. Änderungen am Formschreiben des Dokumenten-Workflows 7. Copyright © Rexx Systems GmbH Seite 1 1. Einleitung Die rexx Suite bietet vielfältige Unterstützung für die digitale Erarbeitung von Arbeitsprozessen - nicht nur im HR-Umfeld. Seien es Workflows, Reminder, Blogeinträge, Aufgaben im rexx Kanban-Board oder Chaotische und Videofunktionen. Mit dem Modul „Dokument / Zeugnis Workflow“ werden die Workflows (nachfolgend „WF“) um einen neuen Typ erwürbert, um gemeinsam an Dokumenten zu arbeiten, Inhalte in den jeweiligen WF-Schritten festzulegen, zu genehmigen oder anzpassen. Ein typischer Anwendungsfall für einen Dokumenten-Workflow ist die",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.1705,
+          "precision": 0.0543,
+          "recall": 0.2778,
+          "f1_score": 0.0909,
+          "key_terms_ratio": 0.0769,
+          "length_ratio": 0.24
+        },
+        "time": 3.84
+      },
+      {
+        "question": "Was sind digitale Signaturen in rexx?",
+        "expected": "Digitale Signaturen ermöglichen elektronische Signaturen im Antragsprozess, sicheres Signieren von Dokumenten und Gesprächen sowie das Unterzeichnen von Arbeitsverträgen im Recruiting ohne externe Dienstleister.",
+        "generated": "Du bisst ein Experte für digitale Signaturen im Antragsprozess. Die digitalen Signatur in rexx ermöglicht es Unternehmenpräzise und sichere Unterschriften zu erstellen und zu verwalten, ohne die benötigte Einbindung von externen Systemen wie DocuSign einzubinden. Die digitalen Signaturen können als Platzhalter für Formschreibungen oder als wahlweise effektive Ergänzung für den Genehmigungs- bzw. Ablesungsfunktion in einem Antrag verwendet werden. Das vollständige Potenzial der digitalen Signatur wird durch die Einbindung in einen Dokumentenworkflow erkannt, der eine Unterschrift einsetzen kann, die sicher und einfach zu verwalten ist. Die digitalen Signaturen können auch im FES-Verfahren (Forthschen Signatur) erfasst werden, um höhere Sicherheitsniveau zu erreichen. Die digitalen Signaturen in rexx ermöglichen es Unternehmenpräzise und sichere Unterschriften zu erstellen und zu verwalten, ohne die benötigte Einbindung von externen Systemen wie DocuSign einzubinden.",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.1729,
+          "precision": 0.1216,
+          "recall": 0.45,
+          "f1_score": 0.1915,
+          "key_terms_ratio": 0.2667,
+          "length_ratio": 0.2155
+        },
+        "time": 3.12
+      },
+      {
+        "question": "Wie funktioniert INTERAMT als Publizierungsziel?",
+        "expected": "INTERAMT ist eine zentrale deutsche Online-Plattform für Stellenangebote im öffentlichen Dienst. rexx systems bietet eine Integration über eine Schnittstelle, die effizienten Datenaustausch ermöglicht.",
+        "generated": "Das AI-Assistenten kann die folgende Antwort auf den englischen Begriff \"Interamt\" (Intéramt) als \"Publizierungsziel\" übersetzen:\n\nKontext:\n• Ansprechpartner • Stellelanzeige • Befristung Die Publizierung kann wie gewohnt bearbeitet und vorzeitig beendet werden. 4. Systemdaten Das Publizierungsziel INTERAMT kann in den Systemdaten → Publizierungszielen verwaltet werden. Hier können wie gewohnt beispielsweise Profil-Freigaaben verwaltet und Kosten hinterlegt werden sowie eine Standardpublizierungsdauer eingetragen werden. Das Publizierungsziel ist mit der eigenen Klasse INTERAMT eingetragt, diese Klasse wird aus der Klasse Home befüllt. © rexx systems Seite 4 Lasse sich eine Vorschau anzeigen, um das Formular optimal anzupassen. Interne Daten (Felder mit rotem Hintergrund) sind für den Bewerman nicht sichtbar. 13 6.5 Vaikanz publizieren Haben Sie alle Vaikanzdaten eingegeben sowie die Stellelanzeige und das Formular angepasst, kann die Stellepublizie rung bestimmt werden. Klicken",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.1222,
+          "precision": 0.0769,
+          "recall": 0.3182,
+          "f1_score": 0.1239,
+          "key_terms_ratio": 0.1333,
+          "length_ratio": 0.2024
+        },
+        "time": 3.64
+      },
+      {
+        "question": "Was ist das 360° Feedback in rexx HR?",
+        "expected": "Das 360° Feedback ermöglicht eine umfassende Bewertung von Mitarbeitenden durch verschiedene Perspektiven wie Vorgesetzte, Kollegen und Mitarbeiter selbst.",
+        "generated": "Das 360° Feedback in rexx HR ist ein Modul, der verschiedene Arten von Beurtelipplangeberechnung bietet. Es gibt drei unterschiedliche Arten von Beurtelipplangeberechnungen: Vorgesetztenbeurtelipplangeberechnung (Vorleseteisensysteme), Teambeurtelipplangeberechnung (Leute im Team gegenseitig beurteln) und Beurtelipplangeberechnung durch Vorleseten (Mehrfachauswahl möglich, bei Organisationseinheiten ausgewählt werden). Die Auswahl der Vorleseteisensysteme, die Teambeurtelipplangeberechnung und die Beurtelipplangeberechnung durch Vorleseten erfolgt über das Startmenü > Skills, Aufgaben > 360° Feedback > TLM > Neue Beurtelipplangeberechnung. Die Auswahl der Vorleseteisensysteme ist von Organisationseinheiten ausgewählt und kann auf Mehrfachauswahl beschränkt werden. Die Auswahl der Teambeurtelipplangeberechnung erfolgt über das Startmenü > Skills, Aufgaben > 360° Feedback > TLM > Neue Beurtelipplangeberechnung durch Vorleseten und kann auf Me",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.1813,
+          "precision": 0.14,
+          "recall": 0.3889,
+          "f1_score": 0.2059,
+          "key_terms_ratio": 0.25,
+          "length_ratio": 0.1625
+        },
+        "time": 3.65
+      },
+      {
+        "question": "Wie funktioniert Homeoffice per Antrag?",
+        "expected": "Homeoffice kann über einen Workflow-Antrag beantragt werden. Die Homeoffice-Kalendertage werden erfasst und in der Zeiterfassung berücksichtigt.",
+        "generated": "Du siehst das Artikel \"Homeoffice per Antrag\" auf dem Forum \"rexx-systems\". Die Frage basiert auf einem Beitrag des Autors, der im Juli 2021 vorgestellt wurde. Im Juli 2021 wird im Kundenforum vorgestellt, wie es über Kalendereinträge möglich ist, Homeoffice-Tätigkeiten oder mobile Arbeitszeiten zu beantragen:\n\n\"Einführung in Juli 2021: https://forum.rexx-systems.com/viewtopic.php?f=72&t=1324\"\n\nDieses Feature ist für Unternehmen geeignet, die Mitarbeitenden die Möglichkeit bieten, regelmäßige Homeoffice-Tage zu bearbeiten und zu verwalten. Die Homeoffice-per-Kalenderbuchung wurde im Zuges Updates dahingehenend erwiesen, dass bei der Berechnung der Homeoffice-Tage nun die Arbeitszeitkonfiguration, Abweisenheiten und Feiertage berücksichtigt werden, und so kann gezielt danach gefiltert werden (Alt-Abfragen in den Kundeninstallationen werden entsprechend migriert). Mit dem neuen Workflow-Typ \"Homeoffice / MoBIles Arbeiten\" wird ein zweiter Möglichkeit um Homeoffice-Tag",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.3559,
+          "precision": 0.1134,
+          "recall": 0.6875,
+          "f1_score": 0.1947,
+          "key_terms_ratio": 0.5,
+          "length_ratio": 0.1469
+        },
+        "time": 3.69
+      },
+      {
+        "question": "Was ist Multiposting in rexx Recruiting?",
+        "expected": "Multiposting ermöglicht das gleichzeitige Veröffentlichen von Stellenanzeigen auf mehreren Jobportalen und Plattformen aus dem rexx System heraus.",
+        "generated": "Multiposting in rexx Recruiting (also known as multi-posting) refers to the ability to publish multiple job postings on over 1000 job boards simultaneously. This feature allows recruiters to save time and effort by avoiding the need for manual posting, which can be costly and time-consuming. Multiposting in rexx Recruiting also offers the benefit of automatic content updates and support from rexx systems, as well as the ability to set up and manage multiple publishable targets on a single job board. This feature is available for recruiters who are already using rexx Recruiting under the umbrella of GOhipping Multipostings.",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.0552,
+          "precision": 0.0294,
+          "recall": 0.1176,
+          "f1_score": 0.0471,
+          "key_terms_ratio": 0.1,
+          "length_ratio": 0.2317
+        },
+        "time": 2.26
+      },
+      {
+        "question": "Wie funktioniert die Zeiterfassung via QR-Code?",
+        "expected": "Die Zeiterfassung via QR-Code ermöglicht Mitarbeitenden das Ein- und Ausstempeln durch Scannen eines QR-Codes, zum Beispiel am Eingang des Unternehmens.",
+        "generated": "Das Du bisst ein Experte für rexx HR Software. Die Praxisbeantwortung basiert auf dem Kontext:\n\nKontext:\n/ Praxistipp In der Demo kann man diese Funktion mit dem Formschreiben „Gehaltserhöhung mit Unterschrift (QR-Code)“ gut testen. Bei diesem Dokument ist es so, dass der QR-Code in den Footer platziert wurde. Hierfür wurde eigene Seitenkonfigurationen geschaffen: Email mit QR-Code, Brief mit QR-Code. In diesen Seitenkonfigurationen wurde der qr_code-Platzhaltersitz zurückgeführt werden können. Rexx QR Codes - © rexx systems - Seite 8 von 17\n4. QR-Code für Personalgespräche Der QR-Code-Platzhaltersitz kann in den Template für Gesprächsbögen eingebracht werden. Der Platzhaltersitz wird durch einen QR-Code ersetzt, sobald aus dem Template ein Gespräch erzeugt wurde. Über Systemdaten>Geprimattechnikn wird festgeleitet, ob für ein abgeschlossenes Gespräch ein Kontakteintrag erzeugt werden soll. Weinn dort ein Kontakttyp dem Gesprächstyp zugohernet wurde, wird das Gesprachtyp bei Ges",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.2151,
+          "precision": 0.0795,
+          "recall": 0.3333,
+          "f1_score": 0.1284,
+          "key_terms_ratio": 0.1818,
+          "length_ratio": 0.1531
+        },
+        "time": 3.57
+      }
+    ]
+  },
+  "llama2": {
+    "model": "llama2",
+    "num_questions": 10,
+    "metrics": {
+      "cosine_similarity": 0.1252,
+      "precision": 0.0781,
+      "recall": 0.2733,
+      "f1_score": 0.1196,
+      "key_terms_ratio": 0.1971,
+      "avg_response_time": 11.47,
+      "total_time": 114.66
+    },
+    "results": [
+      {
+        "question": "Was ist der Jobportal-Konfigurator in rexx?",
+        "expected": "Der Jobportal-Konfigurator ermöglicht einfaches und effektives Anpassen des Jobportals nach den eigenen Vorstellungen. Er bietet Einstellungen für Schriftarten, Farben und Layout.",
+        "generated": "Der Jobportal-Konfigurator von rexx ist ein индивидуализируемый Content Management System (CMS), das die Gestaltung und den Aufbau einer eigenen Jobseite ermöglicht. Mit diesem Werkzeug können Anwender ihre Karriereseite vollständig individualisieren, indem sie die meisten Elemente der Seite gestalten und anpassen können, wie z.B. Logo, Schriftart, Buttons, Header, Footer und mehr. Der Jobportal-Konfigurator ist kostenlos verfügbar und ermöglicht es den Mitarbeitenden, ihre Jobseite nach eigenen Vorstellungen zu gestalten und zu betreiben.",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.3258,
+          "precision": 0.1818,
+          "recall": 0.4762,
+          "f1_score": 0.2632,
+          "key_terms_ratio": 0.4286,
+          "length_ratio": 0.3284
+        },
+        "time": 12.94
+      },
+      {
+        "question": "Wie funktioniert das Skillmanagement in rexx HR?",
+        "expected": "Das Skillmanagement hilft dabei, Transparenz zu schaffen über vorhandene Skills im Unternehmen. Es beantwortet Fragen wie: Wer kann was? Wo fehlen Fähigkeiten? Wo lohnt sich Weiterbildung und wo Recruiting? So lassen sich Mitarbeitende besser entwickeln und interne Mobilität unterstützen.",
+        "generated": "Das Skillmanagement in rexx HR ist ein wichtiger Bestandteil des HR-Systems und dient dazu, die Fähigkeiten und Kompetenzen der Mitarbeiter zu verfolgen und zu management. Es gibt zwei Rollen im Skillmanagement: die Skillmanager und die allgemeine Ansprechpartner.\n\nDie Skillmanager sind dynamische Empfänger in Workflows, Anträgen und Remindern, die sich auf die Skillgruppen im Skill Tree beziehen. Sie werden in jedem Projekt mit aktiven Skills hinterlegt und können gezielt überschrieben werden. In der Wurzel des Skill Trees werden allgemeine Ansprechpartner definiert.\n\nBei den Workflows vom Typ \"Skills (Portal)\" wird als Empfänger das \"Skillmanagement\" definiert, welches das Personal beinhaltet, das in der entsprechenden Skillgruppe hinterlegt ist. Wenn ein Antrag gestellt wird, wird als Empfänger der Skillmanager gezogen, der bei der entsprechenden Skillgruppe hinterlegt ist.\n\nDiese Rollen und Funktionen des Skillmanagement in rexx HR ermöglichen es, das vorhandene Know-how zu nutzen und neue Kompetenzen zu entwickeln. Es wird klarer, welche Fähigkeiten",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.1758,
+          "precision": 0.1325,
+          "recall": 0.3143,
+          "f1_score": 0.1864,
+          "key_terms_ratio": 0.2273,
+          "length_ratio": 0.2701
+        },
+        "time": 12.33
+      },
+      {
+        "question": "Was ist das Whistleblowing Modul?",
+        "expected": "Das Whistleblowing Modul bietet einen sicheren Kanal für Hinweisgeber im Unternehmen. Es gewährleistet Sicherheit und Datenschutz bei der Meldung von Missständen.",
+        "generated": "Das Whistleblowing Modul ist ein Option des rexx HR Software, mit dem Unternehmen die Möglichkeit bekommen, Whistleblower-Meldungen zu verarbeiten und zu bearbeiten. Das Modul ermöglicht es den betroffenen Personen, eine neue Meldung zu erstellen, wenn sie eine unangemessene Vorkommnis oder ein Vergehen in ihrem Unternehmen bemerken. Die Meldung wird dann in einem bestimmten Bahnensystem erfasst und wird von den zuständigen Personen bearbeitet und verwaltet. Das Modul gibt es in verschiedenen Bahnen, die es ermöglichen, die Meldung zu verfolgen und zu überwachen, während sie sich in der Bearbeitung befindet. Es gibt auch Funktionen wie das Zuweisen einer Person zur verantwortlichen Person, Markieren der Meldung als bestätigt oder falsch, sowie die Änderung der Kategorie der Meldung. Das Whistleblowing Modul hilft dabei, das Sicherheits- und Vertrauensproblem des Unternehmens zu stärken und eine sichere Umgebung für den Whistleblowing-Prozess zu schaffen.",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.2694,
+          "precision": 0.1149,
+          "recall": 0.4762,
+          "f1_score": 0.1852,
+          "key_terms_ratio": 0.3077,
+          "length_ratio": 0.1674
+        },
+        "time": 11.18
+      },
+      {
+        "question": "Wie konfiguriert man Entgelttabellen in rexx HR?",
+        "expected": "Entgelttabellen können für Tarifverträge und Kollektivverträge konfiguriert werden. Die Pflege erfolgt über die Systemeinstellungen. Entgelttabellen können in Jobfamilien und Stellen für die Eingruppierung verwendet werden.",
+        "generated": "In rexx HR, you can configure salary tables by following these steps:\n\n1. Go to the \"Human Resources\" module and select \"Salaries\" from the menu.\n2. Click on the \"Salary Tables\" button in the top right corner of the screen.\n3. In the \"Salary Table Configuration\" window, you can define the different salary tables for your company by specifying the following information:\n\t* Name: Enter a name for the salary table (e.g., \"Basic Salary\").\n\t* Type: Select the type of salary table (e.g., \"Fixed Amount,\" \"Percentage of Basic Salary,\" etc.).\n\t* Currency: Select the currency in which the salary will be paid (e.g., EUR).\n\t* Minimum and Maximum Amounts: Enter the minimum and maximum amounts that can be entered for this salary table.\n\t* Default Salary: Enter the default salary amount for this table (optional).\n4. Once you have defined the salary tables, you can use them to calculate the salaries of your employees by following these steps:\n\t* Go to the \"Human Resources\" module and select \"Employees\" from the menu.\n\t* Click on the employee's name to open their personnel file.\n\t* In the \"Salary\" section of the employee",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.0127,
+          "precision": 0.0119,
+          "recall": 0.0556,
+          "f1_score": 0.0196,
+          "key_terms_ratio": 0.0,
+          "length_ratio": 0.1989
+        },
+        "time": 12.96
+      },
+      {
+        "question": "Was sind digitale Signaturen in rexx?",
+        "expected": "Digitale Signaturen ermöglichen elektronische Signaturen im Antragsprozess, sicheres Signieren von Dokumenten und Gesprächen sowie das Unterzeichnen von Arbeitsverträgen im Recruiting ohne externe Dienstleister.",
+        "generated": "In rexx, digital signatures refer to the electronic signing of documents and conversations within the platform. The term \"digital signature\" refers to the secure signing of electronic documents using a digital certificate or other security measures. In the context of rexx, digital signatures are used to provide a higher level of security and authenticity compared to traditional handwritten signatures.\n\nThe digitale Signatur in rexx is based on the \"Fortgeschrittene Signatur (FES)\" concept, which offers a higher level of security than the simpler \"electronic signature\" (EES). The FES provides several features that enhance its security, including:\n\n1. Unique assignment to a specific person: No other user can copy or use this signature.\n2. Possible identification of the signer through login of the rexx user at the application, possibly extended by two-factor authentication.\n3. Detectable changes in the document due to natural variations (hash value).\n\nThe digitale Signatur in rexx is created by uploading a signature image file into the platform, which is then overwritten with the text of the image. This allows users to transfer their signature to the personal file in the portal through an application, providing a secure and convenient way to sign documents electronically.",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.0066,
+          "precision": 0.009,
+          "recall": 0.05,
+          "f1_score": 0.0153,
+          "key_terms_ratio": 0.0667,
+          "length_ratio": 0.1637
+        },
+        "time": 11.07
+      },
+      {
+        "question": "Wie funktioniert INTERAMT als Publizierungsziel?",
+        "expected": "INTERAMT ist eine zentrale deutsche Online-Plattform für Stellenangebote im öffentlichen Dienst. rexx systems bietet eine Integration über eine Schnittstelle, die effizienten Datenaustausch ermöglicht.",
+        "generated": "INTERAMT serves as a Publiziersgoal in rexx HR Software. It is a pre-defined target for the publication of vacancies, which can be selected from a dropdown menu when creating a new publication. By choosing INTERAMT as the publication goal, you can automatically assign the vacancy to the appropriate job boards and platforms, such as StepStone or other job search websites.\n\nWhen selecting INTERAMT as the publication goal, rexx HR Software will take care of the following tasks:\n\n1. Automatic distribution to job boards: Once you have selected INTERAMT as the publication goal, the vacancy will be distributed to a range of job boards and platforms, including StepStone and other popular job search websites.\n2. Customizable publication settings: You can customize the publication settings for each vacancy, such as the duration of the publication, the target audience, and the type of job board or platform to use.\n3. Real-time tracking and analytics: rexx HR Software provides real-time tracking and analytics for each publication, allowing you to monitor the performance of your vacancies and make adjustments as needed.\n4. Integration with other rexx modules: INTERAMT is integrated with other rexx modules, such as the candidate management system and the recruitment process management system, providing a seamless workflow for managing the",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.0353,
+          "precision": 0.0297,
+          "recall": 0.1364,
+          "f1_score": 0.0488,
+          "key_terms_ratio": 0.1333,
+          "length_ratio": 0.1493
+        },
+        "time": 12.19
+      },
+      {
+        "question": "Was ist das 360° Feedback in rexx HR?",
+        "expected": "Das 360° Feedback ermöglicht eine umfassende Bewertung von Mitarbeitenden durch verschiedene Perspektiven wie Vorgesetzte, Kollegen und Mitarbeiter selbst.",
+        "generated": "Das 360° Feedback in rexx HR ist ein Modul, das es Unternehmen ermöglicht, ihre Mitarbeiter auf verschiedenen Aspekten zu beurteilen. Es gibt fünf verschiedene Beurteilungstypen, die je nach Bedarf ausgewählt werden können, um eine umfassende Einschätzung des Fähigkeitsprofils jedes Mitarbeiters zu ermöglichen. Die Beurteilungen werden in einem speziellen Skillschema erfasst, das es Unternehmen ermöglicht, die Fähigkeiten und Stärken ihrer Mitarbeiter zu identifizieren und zu verbessern. Das 360° Feedback ist ein wichtiger Bestandteil der Personalentwicklung und hilft dabei, die Fähigkeiten und Stärken von Mitarbeitern zu erkunden und sie kontinuierlich zu verbessern.",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.2298,
+          "precision": 0.1639,
+          "recall": 0.5556,
+          "f1_score": 0.2532,
+          "key_terms_ratio": 0.4167,
+          "length_ratio": 0.2293
+        },
+        "time": 9.29
+      },
+      {
+        "question": "Wie funktioniert Homeoffice per Antrag?",
+        "expected": "Homeoffice kann über einen Workflow-Antrag beantragt werden. Die Homeoffice-Kalendertage werden erfasst und in der Zeiterfassung berücksichtigt.",
+        "generated": "Homeoffice per Antrag ist eine Funktion, die von rexx Systems angeboten wird, um Mitarbeitern die Möglichkeit zu geben, spontan und unregelmäßig Homeoffice-Tage zu beantragen. This feature allows employees to request home office days in advance, providing them with the flexibility to work from home at a time that suits their needs.\n\nTo use Homeoffice per Antrag, employees can submit an application through the rexx system, specifying the dates they wish to work from home and the reason for their request. The application will then be reviewed by the manager or HR department, who can approve or reject the request based on the company's policies and procedures.\n\nOnce the request is approved, the employee will be able to work from home on the designated days. The Homeoffice per Antrag feature provides an additional layer of flexibility for employees, allowing them to manage their work-life balance more effectively. It also helps companies to better accommodate the needs of their employees and ensure that they are able to work in a comfortable and productive environment.",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.0837,
+          "precision": 0.0472,
+          "recall": 0.3125,
+          "f1_score": 0.082,
+          "key_terms_ratio": 0.2,
+          "length_ratio": 0.1332
+        },
+        "time": 10.41
+      },
+      {
+        "question": "Was ist Multiposting in rexx Recruiting?",
+        "expected": "Multiposting ermöglicht das gleichzeitige Veröffentlichen von Stellenanzeigen auf mehreren Jobportalen und Plattformen aus dem rexx System heraus.",
+        "generated": "Multiposting in rexx Recruiting refers to the ability to publish job vacancies on over 1000 job boards with just a few clicks. This feature is made possible through the integration of the GOhiring multiposting tool, which allows users to easily create and manage multiple postings across different job boards without any extra setup or configuration required.\n\nThe multiposting function in rexx Recruiting offers several advantages over traditional recruitment methods, including:\n\n* Faster publication on the target job board\n* Automatic content updates (changes are automatically transferred)\n* Support from rexx systems\n* No posting fees (also known as \"credits\")\n\nHowever, it's important to note that there may be setup and maintenance costs associated with implementing these interfaces, and not all job boards are supported by rexx Recruiting. Additionally, some job boards may charge placement fees for the publication of job vacancies.",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.0537,
+          "precision": 0.0198,
+          "recall": 0.1176,
+          "f1_score": 0.0339,
+          "key_terms_ratio": 0.1,
+          "length_ratio": 0.1548
+        },
+        "time": 10.17
+      },
+      {
+        "question": "Wie funktioniert die Zeiterfassung via QR-Code?",
+        "expected": "Die Zeiterfassung via QR-Code ermöglicht Mitarbeitenden das Ein- und Ausstempeln durch Scannen eines QR-Codes, zum Beispiel am Eingang des Unternehmens.",
+        "generated": "Die Zeiterfassung via QR-Code funktioniert wie folgt:\n\n1. When a conversation is completed, the Scanmanager identifies the conversation through the QR-Code and creates a contact entry for the conversation based on the settings in Sysdata>Gesprächtypen.\n2. The contact entry is created without a timestamp, as the conversation has already been timed during the live conversation.\n3. The Scanmanager automatically adds the conversation to the digital file (PDF-Akte) without a timestamp, as the conversation has already been timed.\n4. The digital file includes only the signed conversation (QR-Code), but not the conversation without signature.\n5. Within the contact list, aborted conversations are not visible, but they can be accessed in the digital file.\n6. The Scanmanager identifies the conversation through the QR-Code and creates a contact entry for the conversation based on the settings in Sysdata>Gesprächtypen.\n7. The contact entry is created without a timestamp, as the conversation has already been timed during the live conversation.\n8. The digital file includes only the signed conversation (QR-Code), but not the conversation without signature.\n9. Within the contact list, aborted conversations are not visible, but they can be accessed in the digital file.\n\nIn summary, the QR-Code",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.0594,
+          "precision": 0.0704,
+          "recall": 0.2381,
+          "f1_score": 0.1087,
+          "key_terms_ratio": 0.0909,
+          "length_ratio": 0.1173
+        },
+        "time": 12.08
+      }
+    ]
+  },
+  "gemma2:2b": {
+    "model": "gemma2:2b",
+    "num_questions": 10,
+    "metrics": {
+      "cosine_similarity": 0.2482,
+      "precision": 0.1313,
+      "recall": 0.4933,
+      "f1_score": 0.2024,
+      "key_terms_ratio": 0.3829,
+      "avg_response_time": 7.56,
+      "total_time": 75.56
+    },
+    "results": [
+      {
+        "question": "Was ist der Jobportal-Konfigurator in rexx?",
+        "expected": "Der Jobportal-Konfigurator ermöglicht einfaches und effektives Anpassen des Jobportals nach den eigenen Vorstellungen. Er bietet Einstellungen für Schriftarten, Farben und Layout.",
+        "generated": "Der Jobportal-Konfigurator ist ein hochfunktionaler und eigenständiger Content Management System (CMS) im Rahmen der rexx HR Software. Er ermöglicht es Unternehmen, die Gestaltung ihres Jobportals individuell anzupassen, ohne tiefgehende Kenntnisse in HTML oder CSS zu benötigen. \n\n**Hier sind einige wichtige Merkmale des Jobportal-Konfigurators:**\n\n* **Individualisierungsmöglichkeiten:** Gestaltende können das Aussehen von verschiedenen Elementen wie Schriftart, Buttons, Bannerbilder und mehr anpassen.\n* **Kostenloser Zugang:** Der Konfigurator ist kostenlos nutzbar.\n* **Einfache Bedienung:**  Die Anpassungen sind intuitiv durchzuführen und erfordern keine tiefgreifende Programmierkenntnisse. \n\n**Zusammengefasst:** Der Jobportal-Konfigurator bietet eine einfache und effektive Möglichkeit, die Gestaltung des eigenen Jobportals zu personalisieren, ohne dass umfangreiche Kenntnisse in der Programmierung erforderlich sind.",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.2863,
+          "precision": 0.1358,
+          "recall": 0.5238,
+          "f1_score": 0.2157,
+          "key_terms_ratio": 0.5,
+          "length_ratio": 0.1921
+        },
+        "time": 16.42
+      },
+      {
+        "question": "Wie funktioniert das Skillmanagement in rexx HR?",
+        "expected": "Das Skillmanagement hilft dabei, Transparenz zu schaffen über vorhandene Skills im Unternehmen. Es beantwortet Fragen wie: Wer kann was? Wo fehlen Fähigkeiten? Wo lohnt sich Weiterbildung und wo Recruiting? So lassen sich Mitarbeitende besser entwickeln und interne Mobilität unterstützen.",
+        "generated": "Das Skillmanagement in Rexx HR ermöglicht eine effiziente Verwaltung von Fähigkeiten und Kompetenzen im Unternehmen. \n\n**Hier sind die wichtigsten Punkte:**\n\n* **Skillmanager:**  In der Skillgruppe werden \"Skillmanager\" definiert, die für die Pflege und Überprüfung der Korrektheit von Skills zuständig sind. Sie können in Workflows und Remindern verwendet werden.\n* **Automatische Vererbung:**  Die Skillmanager-Rolle erfährt eine automatische Vererbung von übergeordneten auf untergeordnete Skillgruppen. \n* **Dynamische Empfänger:**  Skillmanager fungieren als dynamische Empfänger in Workflows und Anträgen, ähnlich wie Managerrollen. \n* **Workflow-Typ \"Skills (Portal)\":**  Mit Patches 80235 und 80236 (18.09.2025) wird eine neue Manager-Rolle im Workflow-Typ \"Skills (Portal)\" eingeführt. \n* **Skillmanager als Empfänger:**  Bei einem Antrag über den Workflow-Typ \"Skills (Portal)\", wird der Skillmanager, der in der entsprechenden Skillgruppe hinterlegt ist, als Empfänger ausgewählt.\n\n**Zusammengefasst:** Das Skillmanagement in Rexx HR ermöglicht eine effiziente und transparente Verwaltung von Fähigkeiten und Kompetenzen im Unternehmen.",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.1286,
+          "precision": 0.1169,
+          "recall": 0.2571,
+          "f1_score": 0.1607,
+          "key_terms_ratio": 0.1818,
+          "length_ratio": 0.252
+        },
+        "time": 8.01
+      },
+      {
+        "question": "Was ist das Whistleblowing Modul?",
+        "expected": "Das Whistleblowing Modul bietet einen sicheren Kanal für Hinweisgeber im Unternehmen. Es gewährleistet Sicherheit und Datenschutz bei der Meldung von Missständen.",
+        "generated": "Das Whistleblowing-Modul ist ein Teil des rexx HR Systems, der die Möglichkeit bietet, anonyme Meldungen von Mitarbeitern oder anderen Personen zu erfassen und zu bearbeiten. \n\n**Hier sind einige wichtige Merkmale des Whistleblowing-Moduls:**\n\n* **Anonymität:** Die Meldungsform ermöglicht es, dass Mitarbeiter sich anonym melden können.\n* **Übersicht:** Es gibt eine Übersicht über alle Meldungen, die eingegangen sind.\n* **Verteilung von Aufgaben:**  Die Module verteilt Aufgaben an Verantwortliche und andere Personen, die mit der Bearbeitung der Meldungen vertraut sind. \n* **Status-Tracking:** Die Meldungen werden in verschiedenen Status-Bahnen verwaltet (z.B. \"Empfangen\", \"Angenommen\", \"Untersuchung läuft\", \"Warten auf Whistleblower\", \"Erledigt\").\n* **HinSchG-Konformität:**  Die Meldungsbearbeitung und -verfolgung muss nach HinSchG innerhalb von sieben Tagen erfolgen. \n* **Anonymisierung:** Nach Ablauf bestimmter Zeiträume werden erledigte Meldungen anonymisiert, um Rückschlüsse auf den Fall zu vermeiden.\n\n\n**Zusammengefasst:** Das Whistleblowing-Modul bietet eine sichere und transparente Plattform für die Meldung von Missständen oder Unregelmäßigkeiten im Unternehmen.",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.2212,
+          "precision": 0.1238,
+          "recall": 0.619,
+          "f1_score": 0.2063,
+          "key_terms_ratio": 0.4615,
+          "length_ratio": 0.1366
+        },
+        "time": 8.01
+      },
+      {
+        "question": "Wie konfiguriert man Entgelttabellen in rexx HR?",
+        "expected": "Entgelttabellen können für Tarifverträge und Kollektivverträge konfiguriert werden. Die Pflege erfolgt über die Systemeinstellungen. Entgelttabellen können in Jobfamilien und Stellen für die Eingruppierung verwendet werden.",
+        "generated": "Die Frage nach der Konfiguration von Entgelttabellen in rexx HR ist nicht im Text zu finden. Der Text beschreibt den neuen Workflow-Typ \"Dokument\" und die damit verbundenen Funktionen. \n\nUm mehr über die Konfiguration von Entgelttabellen in rexx HR zu erfahren, empfehle ich dir folgende Schritte:\n\n* **Dokumente von Rexx Systems GmbH konsultieren:**  Die offizielle Dokumentation der rexx HR Software sollte Informationen zur Konfiguration von Entgelttabellen enthalten.\n* **Kontaktieren Sie den Support von Rexx Systems GmbH:**  Sie können sich direkt an die Support-Abteilung von Rexx wenden, um spezifische Fragen zu der Konfiguration von Entgelttabellen zu klären. \n\n\nLetztlich hängt die genaue Konfigurationsmethode von der Version des rexx HR-Systems und den individuellen Anforderungen ab.",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.1868,
+          "precision": 0.0896,
+          "recall": 0.3333,
+          "f1_score": 0.1412,
+          "key_terms_ratio": 0.1538,
+          "length_ratio": 0.2798
+        },
+        "time": 5.62
+      },
+      {
+        "question": "Was sind digitale Signaturen in rexx?",
+        "expected": "Digitale Signaturen ermöglichen elektronische Signaturen im Antragsprozess, sicheres Signieren von Dokumenten und Gesprächen sowie das Unterzeichnen von Arbeitsverträgen im Recruiting ohne externe Dienstleister.",
+        "generated": "In rexx bieten digitale Signaturen eine kostengünstige und sichere Alternative zur traditionellen Unterschrift. \n\n**Hier sind einige wichtige Punkte:**\n\n* **Kostenloser Zugang:**  rexx bietet die digitale Signatur kostenfrei an, ohne externe Dienstleister zu nutzen.\n* **Sicherer Prozess:**  Digitale Signaturen bieten Logging und Zugriffsbeschränkungen für erhöhte Sicherheit.\n* **Komfort und Effizienz:**  Die digitale Signatur ist einfach zu implementieren und erfordert keine zusätzlichen Schritte. \n* **Vereinfachung von Prozessen:**  Sie können als Platzhalter in Formschreiben oder als Ergänzung zur Genehmigen/Ablehnen-Funktion in Antragsprozessen eingesetzt werden.\n* **Revisionssichere Unterschriften:**  Digitale Signaturen ermöglichen revisionssichere Unterschriften, ohne dass zusätzliche Schritte wie das Scannen des Dokuments notwendig sind.\n\n**Vorteile der rexx Signatur im Vergleich zu anderen Lösungen:**\n\n* **Fortgeschrittene Signatur (FES):**  Die FES bietet ein höheres Sicherheitsniveau als einfache elektronische Signaturen (EES).\n* **Individuelle Zuordnung:**  Digitale Signaturen sind eindeutig zugeordnet und können nicht kopiert werden. \n* **Identifizierung des Unterzeichners:**  Mit Login im rexx-System kann die Identität des Unterzeichners durch zusätzliche Sicherheit wie Zwei-Faktor-Authentifizierung ergänzt werden.\n* **Erkennung",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.2375,
+          "precision": 0.1038,
+          "recall": 0.55,
+          "f1_score": 0.1746,
+          "key_terms_ratio": 0.4,
+          "length_ratio": 0.1548
+        },
+        "time": 8.7
+      },
+      {
+        "question": "Wie funktioniert INTERAMT als Publizierungsziel?",
+        "expected": "INTERAMT ist eine zentrale deutsche Online-Plattform für Stellenangebote im öffentlichen Dienst. rexx systems bietet eine Integration über eine Schnittstelle, die effizienten Datenaustausch ermöglicht.",
+        "generated": "INTERAMT ist ein Publizierungsziel in rexx HR Software, das die Verwaltung von Stellenanzeigen und der damit verbundenen Daten ermöglicht. \n\n**Hier sind einige wichtige Punkte zu INTERAMT:**\n\n* **Systemdaten:** INTERAMT wird im System \"Systemdaten\" verwaltet, wo man Profil-Freigaben, Kosten und Standardpublizierungsdauer eintragen kann.\n* **Klasse:**  INTERAMT ist mit der eigenen Klasse \"INTERAMT\" verbunden, die aus der Klasse \"Home\" befüllt wird. \n* **Publizierung:**  Nach Anpassung der Vakanzdaten, der Stellenanzeige und des Formulars kann die Stelle über das Menü \"Neue Publizierung\" veröffentlicht werden. \n* **Zielgruppen:**  INTERAMT ermöglicht die Auswahl von verschiedenen Zielgruppen (eigenes Jobportal, StepStone etc.) für die Veröffentlichung.\n\n**Zusammengefasst:** INTERAMT fungiert als zentrale Verwaltungseinheit für Stellenanzeigen und bietet eine effiziente Möglichkeit, Vakanzen zu publizieren und an verschiedene Zielgruppen zu verteilen.",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.2002,
+          "precision": 0.1358,
+          "recall": 0.5,
+          "f1_score": 0.2136,
+          "key_terms_ratio": 0.2667,
+          "length_ratio": 0.2089
+        },
+        "time": 6.71
+      },
+      {
+        "question": "Was ist das 360° Feedback in rexx HR?",
+        "expected": "Das 360° Feedback ermöglicht eine umfassende Bewertung von Mitarbeitenden durch verschiedene Perspektiven wie Vorgesetzte, Kollegen und Mitarbeiter selbst.",
+        "generated": "Das 360° Feedback in rexx HR ist ein Modul, das es Mitarbeitern ermöglicht, ihre Fähigkeiten und Leistungen durch verschiedene Beurteilungsmethoden zu bewerten. Es umfasst verschiedene Arten der Beurteilung: Vorgesetztebeurteilung, Teambeurteilung, Beurteilung durch Vorgesetzte, Freie Gruppenbeurteilung, Selbstbeurteilung und Externe Beurteilung. \n\nDas 360° Feedback bietet die Möglichkeit, Bewertungen von Kollegen, Vorgesetzten, sich selbst oder externen Personen zu erhalten. Die Ergebnisse werden in der Personalakte gespeichert und können für weitere Analysen und Entscheidungen genutzt werden.",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.2957,
+          "precision": 0.2,
+          "recall": 0.6111,
+          "f1_score": 0.3014,
+          "key_terms_ratio": 0.5833,
+          "length_ratio": 0.2579
+        },
+        "time": 3.98
+      },
+      {
+        "question": "Wie funktioniert Homeoffice per Antrag?",
+        "expected": "Homeoffice kann über einen Workflow-Antrag beantragt werden. Die Homeoffice-Kalendertage werden erfasst und in der Zeiterfassung berücksichtigt.",
+        "generated": "Homeoffice per Antrag ermöglicht es Mitarbeitenden, spontan und unregelmäßig Homeoffice-Tage zu beantragen. \n\n**Hier ist eine Schritt-für-Schritt-Beschreibung:**\n\n1. **Antrag einreichen:** Der Mitarbeiter beantragt einen Homeoffice-Tag über einen neuen Workflow-Typ \"Homeoffice / Mobiles Arbeiten\" in der rexx-Software.\n2. **Datenverarbeitung:** Die Anfrage wird verarbeitet und die relevanten Daten werden aus dem Antrag (z.B. gewünschter Zeitraum, Grund) abgeleitet. \n3. **Auswertung und Genehmigung:**  Die Anfrage wird geprüft und ggf. genehmigt, z. B. durch den Mitarbeiterverantwortlichen oder einem anderen Verantwortlichen. \n4. **Homeoffice-Tage im System:** Der Antrag wird in der rexx-Software vermerkt und die entsprechenden Homeoffice-Tage werden in der Personalliste ausgewiesen.\n\n**Vorteile von Homeoffice per Antrag:**\n\n* **Flexibilität:**  Mitarbeitende können spontan und unregelmäßig Homeoffice-Tage beantragen, z.B. für private Angelegenheiten oder bei dringenden Terminen.\n* **Unkomplizierte Nutzung:** Der Prozess ist einfach und intuitiv zu bedienen. \n\n\n**Zusammenfassend:** Homeoffice per Antrag bietet eine flexible Möglichkeit, Homeoffice-Tage zu dokumentieren und zu verwalten, die sich an den individuellen Bedürfnissen der Mitarbeiter orientiert.",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.4423,
+          "precision": 0.1122,
+          "recall": 0.6875,
+          "f1_score": 0.193,
+          "key_terms_ratio": 0.6,
+          "length_ratio": 0.113
+        },
+        "time": 8.5
+      },
+      {
+        "question": "Was ist Multiposting in rexx Recruiting?",
+        "expected": "Multiposting ermöglicht das gleichzeitige Veröffentlichen von Stellenanzeigen auf mehreren Jobportalen und Plattformen aus dem rexx System heraus.",
+        "generated": "Multiposting in rexx Recruiting ermöglicht es, Stellenanzeigen auf über 1000 Jobbörsen gleichzeitig zu veröffentlichen. Es wird durch eine spezielle Funktion namens \"Multiposter GOhiring\" ermöglicht, die kostenfrei genutzt werden kann.  \n\nHier sind einige wichtige Punkte:\n\n* **Vereinfachte Veröffentlichung:** Statt einzeln für jede Jobbörse zu publizieren, können Stellenanzeigen mit einem einzigen Schritt an mehrere Plattformen geschickt werden.\n* **Kostengünstige Option:**  Es gibt keine zusätzlichen Kontingente oder Rahmenverträge erforderlich. \n* **Automatische Aktualisierung:** Änderungen an der Stellenausschreibung werden automatisch auf allen veröffentlichen Stellen übertragen.\n* **Vorteile gegenüber rexx Schnittstellen:** Die rexx Schnittstellen bieten weiterhin die Möglichkeit, schnell und direkt an einzelne Jobbörsen zu posten, jedoch mit zusätzlichen Kosten für Schaltung und Wartung. \n\n\n**Zusammenfassend:** Multiposting ist eine kostengünstige und effiziente Methode, um Stellenanzeigen auf vielen verschiedenen Jobbörsen gleichzeitig zu veröffentlichen.",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.2064,
+          "precision": 0.0899,
+          "recall": 0.4706,
+          "f1_score": 0.1509,
+          "key_terms_ratio": 0.5,
+          "length_ratio": 0.1354
+        },
+        "time": 6.93
+      },
+      {
+        "question": "Wie funktioniert die Zeiterfassung via QR-Code?",
+        "expected": "Die Zeiterfassung via QR-Code ermöglicht Mitarbeitenden das Ein- und Ausstempeln durch Scannen eines QR-Codes, zum Beispiel am Eingang des Unternehmens.",
+        "generated": "Der Text liefert keine Informationen darüber, wie die Zeiterfassung über QR-Codes funktioniert. \n\n\nEs wird erwähnt, dass der QR-Code im Footer von Dokumenten platziert ist und damit automatisiert in das System zurückgeführt werden kann.  Die Verwendung des QR-Codes für die Zeiterfassung wird nicht detailliert beschrieben.",
+        "metrics": {
+          "exact_match": 0.0,
+          "cosine_similarity": 0.2765,
+          "precision": 0.2051,
+          "recall": 0.381,
+          "f1_score": 0.2667,
+          "key_terms_ratio": 0.1818,
+          "length_ratio": 0.4706
+        },
+        "time": 2.65
+      }
+    ]
+  }
+}

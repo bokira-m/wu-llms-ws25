@@ -1,0 +1,1684 @@
+{
+  "metadata": {
+    "description": "Curated Q&A dataset for Rexx HR System evaluation",
+    "version": "1.1",
+    "language": "German",
+    "total_test_questions": 50,
+    "total_train_questions": 200,
+    "categories": ["general", "skillmanagement", "recruiting", "workflows", "administration", "documents", "time_management"]
+  },
+  "test": [
+    {
+      "id": "test_001",
+      "question": "Was ist der Jobportal-Konfigurator in rexx?",
+      "expected_answer": "Der Jobportal-Konfigurator ermöglicht einfaches und effektives Anpassen des Jobportals nach den eigenen Vorstellungen. Er bietet Einstellungen für Schriftarten, Farben und Layout.",
+      "category": "recruiting",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_002",
+      "question": "Wie funktioniert das Skillmanagement in rexx HR?",
+      "expected_answer": "Das Skillmanagement hilft dabei, Transparenz zu schaffen über vorhandene Skills im Unternehmen. Es beantwortet Fragen wie: Wer kann was? Wo fehlen Fähigkeiten? Wo lohnt sich Weiterbildung und wo Recruiting? So lassen sich Mitarbeitende besser entwickeln und interne Mobilität unterstützen.",
+      "category": "skillmanagement",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_003",
+      "question": "Was ist das Whistleblowing Modul?",
+      "expected_answer": "Das Whistleblowing Modul bietet einen sicheren Kanal für Hinweisgeber im Unternehmen. Es gewährleistet Sicherheit und Datenschutz bei der Meldung von Missständen.",
+      "category": "administration",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_004",
+      "question": "Wie konfiguriert man Entgelttabellen in rexx HR?",
+      "expected_answer": "Entgelttabellen können für Tarifverträge und Kollektivverträge konfiguriert werden. Die Pflege erfolgt über die Systemeinstellungen. Entgelttabellen können in Jobfamilien und Stellen für die Eingruppierung verwendet werden.",
+      "category": "administration",
+      "difficulty": "hard"
+    },
+    {
+      "id": "test_005",
+      "question": "Was sind digitale Signaturen in rexx?",
+      "expected_answer": "Digitale Signaturen ermöglichen elektronische Signaturen im Antragsprozess, sicheres Signieren von Dokumenten und Gesprächen sowie das Unterzeichnen von Arbeitsverträgen im Recruiting ohne externe Dienstleister.",
+      "category": "documents",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_006",
+      "question": "Wie funktioniert INTERAMT als Publizierungsziel?",
+      "expected_answer": "INTERAMT ist eine zentrale deutsche Online-Plattform für Stellenangebote im öffentlichen Dienst. rexx systems bietet eine Integration über eine Schnittstelle, die effizienten Datenaustausch ermöglicht.",
+      "category": "recruiting",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_007",
+      "question": "Was ist das 360° Feedback in rexx HR?",
+      "expected_answer": "Das 360° Feedback ermöglicht eine umfassende Bewertung von Mitarbeitenden durch verschiedene Perspektiven wie Vorgesetzte, Kollegen und Mitarbeiter selbst.",
+      "category": "skillmanagement",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_008",
+      "question": "Wie funktioniert Homeoffice per Antrag?",
+      "expected_answer": "Homeoffice kann über einen Workflow-Antrag beantragt werden. Die Homeoffice-Kalendertage werden erfasst und in der Zeiterfassung berücksichtigt.",
+      "category": "time_management",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_009",
+      "question": "Was ist Multiposting in rexx Recruiting?",
+      "expected_answer": "Multiposting ermöglicht das gleichzeitige Veröffentlichen von Stellenanzeigen auf mehreren Jobportalen und Plattformen aus dem rexx System heraus.",
+      "category": "recruiting",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_010",
+      "question": "Wie funktioniert die Zeiterfassung via QR-Code?",
+      "expected_answer": "Die Zeiterfassung via QR-Code ermöglicht Mitarbeitenden das Ein- und Ausstempeln durch Scannen eines QR-Codes, zum Beispiel am Eingang des Unternehmens.",
+      "category": "time_management",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_011",
+      "question": "Was sind Workflows in rexx HR?",
+      "expected_answer": "Workflows in rexx HR sind konfigurierbare Prozessabläufe für verschiedene HR-Vorgänge wie Anträge, Genehmigungen und Freigaben. Sie können grafisch dargestellt und individuell angepasst werden.",
+      "category": "workflows",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_012",
+      "question": "Wie funktioniert die Dokumenten Revision?",
+      "expected_answer": "Die Dokumenten Revision ermöglicht die Versionierung und Nachverfolgung von Änderungen an Dokumenten im System.",
+      "category": "documents",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_013",
+      "question": "Was ist AI Hiring in rexx?",
+      "expected_answer": "AI Hiring nutzt künstliche Intelligenz zur Unterstützung im Recruiting-Prozess, zum Beispiel bei der Vorauswahl von Bewerbern.",
+      "category": "recruiting",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_014",
+      "question": "Wie funktioniert das Bewerben mit WhatsApp?",
+      "expected_answer": "Bewerber können sich über WhatsApp auf Stellenangebote bewerben. Dies vereinfacht den Bewerbungsprozess besonders für mobile Nutzer.",
+      "category": "recruiting",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_015",
+      "question": "Was sind Berechtigungsprofile in rexx HR?",
+      "expected_answer": "Berechtigungsprofile steuern die Zugriffsrechte von Benutzern im System. Administratoren können Profile anlegen und die Rechteverwaltung konfigurieren.",
+      "category": "administration",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_016",
+      "question": "Wie funktioniert das E-Learning in rexx?",
+      "expected_answer": "Das E-Learning Modul ermöglicht digitale Schulungen und Weiterbildungen für Mitarbeitende direkt im rexx System.",
+      "category": "skillmanagement",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_017",
+      "question": "Was ist das Ticketsystem in rexx?",
+      "expected_answer": "Das Ticketsystem dient zur Verwaltung von Support-Anfragen und internen Aufgaben. Tickets können erstellt, zugewiesen und nachverfolgt werden.",
+      "category": "administration",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_018",
+      "question": "Wie funktioniert die Digitalisierung von Personalakten?",
+      "expected_answer": "rexx systems begleitet die Digitalisierung von Personalakten. Dokumente werden digital erfasst und zentral im System verwaltet.",
+      "category": "documents",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_019",
+      "question": "Was sind Skill Anträge?",
+      "expected_answer": "Skill Anträge ermöglichen Mitarbeitenden, neue Skills zu beantragen oder vorhandene Skills aktualisieren zu lassen. In der Workflow-Konfiguration kann gesteuert werden, ob der Antrag für neue Skills, vorhandene Skills oder beides genutzt werden kann.",
+      "category": "skillmanagement",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_020",
+      "question": "Wie funktioniert die Vakanz Analyse?",
+      "expected_answer": "Die Vakanz Analyse bietet zentrale Auswertungen über offene Stellen und deren Publizierung auf verschiedenen Medien wie Jobportalen und der Karriereseite.",
+      "category": "recruiting",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_021",
+      "question": "Was ist RAI in rexx?",
+      "expected_answer": "RAI ist die KI im Forum und in der Suite von rexx systems. Sie unterstützt Benutzer mit intelligenten Funktionen.",
+      "category": "general",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_022",
+      "question": "Wie konfiguriert man Zeitzonen in rexx?",
+      "expected_answer": "Zeitzonen können in rexx eingestellt werden, um internationale Standorte und unterschiedliche Arbeitszeiten abzubilden.",
+      "category": "administration",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_023",
+      "question": "Was ist genderneutrale Software bei rexx?",
+      "expected_answer": "rexx bietet genderneutrale Softwarefunktionen, um inklusiver Sprache in der HR-Software gerecht zu werden.",
+      "category": "general",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_024",
+      "question": "Wie funktioniert das Gesprächsmodul?",
+      "expected_answer": "Das Gesprächsmodul ermöglicht die Planung, Durchführung und Dokumentation von Mitarbeitergesprächen im rexx System.",
+      "category": "skillmanagement",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_025",
+      "question": "Was sind Teil-Workflows?",
+      "expected_answer": "Teil-Workflows sind wiederverwendbare Workflow-Komponenten, die in verschiedenen Hauptworkflows eingebunden werden können.",
+      "category": "workflows",
+      "difficulty": "hard"
+    },
+    {
+      "id": "test_026",
+      "question": "Wie funktioniert das Recruiting Skilltags System?",
+      "expected_answer": "Recruiting Skilltags ermöglichen die Verschlagwortung von Stellenanzeigen und Bewerberprofilen mit relevanten Fähigkeiten für besseres Matching.",
+      "category": "recruiting",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_027",
+      "question": "Was ist die Risikobeurteilung bei Datenschutzverletzung?",
+      "expected_answer": "Die Risikobeurteilung bei Datenschutzverletzung hilft bei der Bewertung und Dokumentation von Datenschutzvorfällen gemäß DSGVO-Anforderungen.",
+      "category": "administration",
+      "difficulty": "hard"
+    },
+    {
+      "id": "test_028",
+      "question": "Wie funktioniert Mein Team in rexx?",
+      "expected_answer": "Mein Team bietet Führungskräften eine Übersicht über ihre direkten Mitarbeitenden mit relevanten Informationen und Aktionen.",
+      "category": "administration",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_029",
+      "question": "Was sind flexible Workflow-Felder?",
+      "expected_answer": "Flexible Workflow-Felder ermöglichen die individuelle Anpassung von Formularfeldern in Workflows je nach Anforderung.",
+      "category": "workflows",
+      "difficulty": "hard"
+    },
+    {
+      "id": "test_030",
+      "question": "Wie funktioniert der Talentbringer?",
+      "expected_answer": "Der Talentbringer unterstützt das Empfehlungsmanagement, bei dem Mitarbeitende Kandidaten für offene Stellen empfehlen können.",
+      "category": "recruiting",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_031",
+      "question": "Was sind Entwicklungsmaßnahmen in rexx HR?",
+      "expected_answer": "Entwicklungsmaßnahmen und Veranstaltungen dienen der Weiterbildung und Entwicklung von Mitarbeitenden. Sie können geplant und verwaltet werden.",
+      "category": "skillmanagement",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_032",
+      "question": "Wie funktioniert die Schwerbehinderung Verwaltung?",
+      "expected_answer": "Das Modul zur Schwerbehinderung ermöglicht die Erfassung und Verwaltung von Schwerbehindertendaten gemäß gesetzlichen Anforderungen.",
+      "category": "administration",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_033",
+      "question": "Was ist der Bewerbungsbooster?",
+      "expected_answer": "Der Bewerbungsbooster unterstützt internes Bewerben, bei dem Mitarbeitende sich schnell und einfach auf interne Stellenausschreibungen im Self Service Portal bewerben können.",
+      "category": "recruiting",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_034",
+      "question": "Wie funktionieren Räume & Sitzpläne in rexx?",
+      "expected_answer": "Räume und Sitzpläne ermöglichen die Verwaltung von Büroräumen und Arbeitsplätzen im Unternehmen.",
+      "category": "administration",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_035",
+      "question": "Was ist die Skillliste?",
+      "expected_answer": "Die Skillliste ist eine Übersicht aller im System definierten Skills, die für das Skillmanagement und Matching verwendet werden.",
+      "category": "skillmanagement",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_036",
+      "question": "Wie funktioniert die Mehrsprachigkeit im Kundenforum?",
+      "expected_answer": "Das Kundenforum unterstützt Mehrsprachigkeit, sodass Inhalte in verschiedenen Sprachen bereitgestellt werden können.",
+      "category": "general",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_037",
+      "question": "Was sind Ausbildung und Lernpfade?",
+      "expected_answer": "Ausbildung und Lernpfade definieren strukturierte Entwicklungswege für Mitarbeitende mit aufeinander aufbauenden Schulungen.",
+      "category": "skillmanagement",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_038",
+      "question": "Wie funktioniert das Org.Management in rexx?",
+      "expected_answer": "Das Org.Management ermöglicht die Verwaltung der Organisationsstruktur einschließlich Abteilungen, Jobfamilien und Stellen.",
+      "category": "administration",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_039",
+      "question": "Was ist FTE-Basis in rexx HR?",
+      "expected_answer": "FTE-Basis (Full Time Equivalent) definiert die Grundlage für die Berechnung von Vollzeitäquivalenten im System.",
+      "category": "administration",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_040",
+      "question": "Wie funktioniert die Felderkonfiguration für Personal?",
+      "expected_answer": "Die Felderkonfiguration ermöglicht die Anpassung von Datenfeldern in Personalstammdaten nach individuellen Anforderungen.",
+      "category": "administration",
+      "difficulty": "hard"
+    },
+    {
+      "id": "test_041",
+      "question": "Was ist die neue Datenstruktur Beziehungen?",
+      "expected_answer": "Die Datenstruktur Beziehungen ermöglicht die Abbildung von Verbindungen zwischen verschiedenen Datensätzen wie Personal und Stellen.",
+      "category": "administration",
+      "difficulty": "hard"
+    },
+    {
+      "id": "test_042",
+      "question": "Wie funktioniert die Zusammenführung der Berechtigungsprofile?",
+      "expected_answer": "Recruiting und HR Berechtigungsprofile können zusammengeführt werden, um eine einheitliche Rechteverwaltung zu ermöglichen.",
+      "category": "administration",
+      "difficulty": "hard"
+    },
+    {
+      "id": "test_043",
+      "question": "Was ist die Darstellung neuer Rollen in rexx?",
+      "expected_answer": "Neue Rollen können im System dargestellt und konfiguriert werden, um verschiedene Benutzergruppen abzubilden.",
+      "category": "administration",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_044",
+      "question": "Wie funktioniert die grafische Ansicht des Workflow Prozesses?",
+      "expected_answer": "Der Workflow Designer bietet eine grafische Ansicht zur Visualisierung und Konfiguration von Unternehmensprozessen. Prozessschritte können visuell dargestellt werden.",
+      "category": "workflows",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_045",
+      "question": "Was sind Meine Aufgaben in rexx HR?",
+      "expected_answer": "Meine Aufgaben ist eine Aufgabenverwaltung im Stil eines Kanban-Boards, die agiles Arbeiten in HR ermöglicht.",
+      "category": "administration",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_046",
+      "question": "Wie funktioniert die Online-Hilfe in rexx?",
+      "expected_answer": "Die Online-Hilfe bietet kontextbezogene Unterstützung und Dokumentation direkt im System.",
+      "category": "general",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_047",
+      "question": "Was ist das Kundenforum?",
+      "expected_answer": "Das Kundenforum ist eine Plattform für rexx-Kunden zum Austausch und zur Unterstützung.",
+      "category": "general",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_048",
+      "question": "Wie funktionieren Vorlagen in rexx HR?",
+      "expected_answer": "Vorlagen ermöglichen die Standardisierung von Dokumenten und Prozessen im System.",
+      "category": "documents",
+      "difficulty": "easy"
+    },
+    {
+      "id": "test_049",
+      "question": "Was sind Typen-Administration?",
+      "expected_answer": "Die Typen-Administration ermöglicht die Konfiguration verschiedener Kategorien und Typen für Systemdaten.",
+      "category": "administration",
+      "difficulty": "medium"
+    },
+    {
+      "id": "test_050",
+      "question": "Wie funktioniert das Personal/User Setup?",
+      "expected_answer": "Das Personal/User Setup ermöglicht die Konfiguration von Benutzerkonten und Personalstammdaten im System.",
+      "category": "administration",
+      "difficulty": "medium"
+    }
+  ],
+  "train": [
+    {
+      "id": "train_000a",
+      "question": "Was ist rexx HR Software?",
+      "expected_answer": "rexx HR Software ist eine cloudbasierte Human Resources Management Lösung der rexx systems GmbH aus Hamburg. Sie bietet Module für Personalverwaltung, Recruiting, Talentmanagement, Zeiterfassung und Dokumentenmanagement.",
+      "category": "general"
+    },
+    {
+      "id": "train_000b",
+      "question": "Wer stellt rexx HR her?",
+      "expected_answer": "rexx HR wird von der rexx systems GmbH hergestellt, einem Unternehmen mit Sitz in Hamburg, Deutschland.",
+      "category": "general"
+    },
+    {
+      "id": "train_000c",
+      "question": "Wofür wird rexx HR verwendet?",
+      "expected_answer": "rexx HR wird für die digitale Personalverwaltung verwendet. Es unterstützt Unternehmen bei Recruiting, Personalmanagement, Zeiterfassung, Skillmanagement und HR-Prozessen.",
+      "category": "general"
+    },
+    {
+      "id": "train_000d",
+      "question": "Welche Module hat rexx HR?",
+      "expected_answer": "rexx HR umfasst Module für Recruiting, Personalverwaltung, Zeiterfassung, Skillmanagement, Dokumentenmanagement, Workflows und Reporting.",
+      "category": "general"
+    },
+    {
+      "id": "train_000e",
+      "question": "Ist rexx HR cloudbasiert?",
+      "expected_answer": "Ja, rexx HR ist eine cloudbasierte Software-as-a-Service (SaaS) Lösung, die über den Webbrowser zugänglich ist.",
+      "category": "general"
+    },
+    {
+      "id": "train_000f",
+      "question": "Was kann man mit rexx HR machen?",
+      "expected_answer": "Mit rexx HR kann man Mitarbeiterdaten verwalten, Stellenanzeigen veröffentlichen, Bewerber managen, Arbeitszeiten erfassen, Skills verwalten und HR-Prozesse digitalisieren.",
+      "category": "general"
+    },
+    {
+      "id": "train_000g",
+      "question": "Für wen ist rexx HR geeignet?",
+      "expected_answer": "rexx HR ist für mittelständische und große Unternehmen geeignet, die ihre HR-Prozesse digitalisieren und automatisieren möchten.",
+      "category": "general"
+    },
+    {
+      "id": "train_000h",
+      "question": "Was bedeutet rexx?",
+      "expected_answer": "rexx ist der Markenname der HR-Software von rexx systems GmbH. Das Unternehmen bietet rexx HR für Personalverwaltung und rexx Recruiting für Bewerbermanagement.",
+      "category": "general"
+    },
+    {
+      "id": "train_000i",
+      "question": "Welche Sprachen unterstützt rexx HR?",
+      "expected_answer": "rexx HR unterstützt Mehrsprachigkeit und ist in verschiedenen Sprachen verfügbar, darunter Deutsch und Englisch.",
+      "category": "general"
+    },
+    {
+      "id": "train_000j",
+      "question": "Wie sicher ist rexx HR?",
+      "expected_answer": "rexx HR ist DSGVO-konform und bietet Funktionen für Datenschutz, Zugriffsrechte und revisionssichere Archivierung.",
+      "category": "general"
+    },
+    {
+      "id": "train_000k",
+      "question": "Was ist rexx Recruiting?",
+      "expected_answer": "rexx Recruiting ist das Bewerbermanagement-Modul von rexx systems für Stellenausschreibungen, Bewerberverwaltung und den gesamten Recruiting-Prozess.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_000l",
+      "question": "Was ist das Self Service Portal in rexx?",
+      "expected_answer": "Das Self Service Portal ermöglicht Mitarbeitenden den eigenständigen Zugriff auf ihre Personaldaten, Anträge und Dokumente ohne HR-Abteilung.",
+      "category": "general"
+    },
+    {
+      "id": "train_000m",
+      "question": "Was sind Workflows in rexx?",
+      "expected_answer": "Workflows in rexx sind digitale Prozessabläufe für Genehmigungen, Anträge und automatisierte HR-Vorgänge wie Urlaubsanträge oder Stammdatenänderungen.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_000n",
+      "question": "Was ist Skillmanagement in rexx?",
+      "expected_answer": "Skillmanagement in rexx erfasst und verwaltet die Fähigkeiten und Kompetenzen der Mitarbeitenden für Personalentwicklung und internes Matching.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_000o",
+      "question": "Wie funktioniert die Zeiterfassung in rexx?",
+      "expected_answer": "Die Zeiterfassung in rexx ermöglicht das Erfassen von Arbeitszeiten, Abwesenheiten und Überstunden über verschiedene Methoden wie Browser, App oder QR-Code.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_000p",
+      "question": "Was ist die digitale Personalakte in rexx?",
+      "expected_answer": "Die digitale Personalakte in rexx speichert alle mitarbeiterbezogenen Dokumente zentral und revisionssicher im System.",
+      "category": "documents"
+    },
+    {
+      "id": "train_000q",
+      "question": "Wie erstellt man Berichte in rexx?",
+      "expected_answer": "Berichte werden über die Reporting-Funktion erstellt. Die Search&List Engine ermöglicht individuelle Auswertungen und Exporte.",
+      "category": "general"
+    },
+    {
+      "id": "train_000r",
+      "question": "Was sind Berechtigungen in rexx?",
+      "expected_answer": "Berechtigungen steuern welche Benutzer auf welche Funktionen und Daten im System zugreifen können. Sie werden über Berechtigungsprofile verwaltet.",
+      "category": "administration"
+    },
+    {
+      "id": "train_000s",
+      "question": "Was ist ein Jobportal in rexx?",
+      "expected_answer": "Ein Jobportal in rexx ist die Karriereseite für die Unternehmens-Homepage, auf der Stellenanzeigen veröffentlicht und Bewerbungen entgegengenommen werden.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_000t",
+      "question": "Wie funktioniert das Bewerbermanagement in rexx?",
+      "expected_answer": "Das Bewerbermanagement in rexx organisiert den gesamten Recruiting-Prozess vom Bewerbungseingang über Screening und Interviews bis zur Einstellung.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_001",
+      "question": "Was ist rexx HR?",
+      "expected_answer": "rexx HR ist eine umfassende Human Resources Software von rexx systems GmbH aus Hamburg für Personalverwaltung, Recruiting und Talentmanagement.",
+      "category": "general"
+    },
+    {
+      "id": "train_002",
+      "question": "Wie loggt man sich in rexx HR ein?",
+      "expected_answer": "Man gibt die rexx-Installations-URL in den Browser ein, z.B. https://musterfirma-hr.rexx-systems.com und meldet sich mit Benutzername und Passwort an.",
+      "category": "general"
+    },
+    {
+      "id": "train_003",
+      "question": "Was ist die Startseite in rexx HR?",
+      "expected_answer": "Die Startseite bietet eine Übersicht über wichtige Funktionen und Navigation zu verschiedenen Modulen des Systems.",
+      "category": "general"
+    },
+    {
+      "id": "train_004",
+      "question": "Was ist das Top-Level-Menü?",
+      "expected_answer": "Das Top-Level-Menü bietet schnellen Zugriff auf die Hauptfunktionen wie Personal, Recruiting, Workflows und Einstellungen.",
+      "category": "general"
+    },
+    {
+      "id": "train_005",
+      "question": "Was sind Job Familien?",
+      "expected_answer": "Job Familien gruppieren ähnliche Stellen und Positionen im Unternehmen für bessere Organisation und Vergleichbarkeit.",
+      "category": "administration"
+    },
+    {
+      "id": "train_006",
+      "question": "Wie legt man ein neues Berechtigungsprofil an?",
+      "expected_answer": "Ein neues Berechtigungsprofil wird über die Administration angelegt, wo Rechte und Zugriffsberechtigungen definiert werden.",
+      "category": "administration"
+    },
+    {
+      "id": "train_007",
+      "question": "Was ist die Rechteverwaltung?",
+      "expected_answer": "Die Rechteverwaltung steuert, welche Benutzer auf welche Funktionen und Daten im System zugreifen können.",
+      "category": "administration"
+    },
+    {
+      "id": "train_008",
+      "question": "Wie legt man einen Workflow an?",
+      "expected_answer": "Workflows werden über den Workflow-Designer angelegt, wo Prozessschritte, Genehmigungen und Aktionen definiert werden.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_009",
+      "question": "Wie konfiguriert man einen Workflow?",
+      "expected_answer": "Die Workflow-Konfiguration erfolgt über den grafischen Editor, wo Schritte, Bedingungen und Verantwortlichkeiten festgelegt werden.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_010",
+      "question": "Was sind Systemdaten in rexx?",
+      "expected_answer": "Systemdaten umfassen grundlegende Konfigurationen wie Personal Setup, Felderkonfiguration, Typen und FTE-Basis.",
+      "category": "administration"
+    },
+    {
+      "id": "train_011",
+      "question": "Was ist ein Jobportal?",
+      "expected_answer": "Ein Jobportal ist die Karriereseite für die eigene Homepage, auf der Stellenanzeigen veröffentlicht werden.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_012",
+      "question": "Was sind Publizierungsziele?",
+      "expected_answer": "Publizierungsziele sind Medien und Plattformen, auf denen Stellenanzeigen erscheinen können, wie das eigene Jobportal oder externe Jobbörsen.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_013",
+      "question": "Wie funktioniert die Skillverwaltung?",
+      "expected_answer": "Die Skillverwaltung ermöglicht das Erfassen, Kategorisieren und Bewerten von Mitarbeiterfähigkeiten für Personalentwicklung und Matching.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_014",
+      "question": "Was ist die Enterprise Recruiting Edition?",
+      "expected_answer": "Die Enterprise Recruiting Edition bietet erweiterte Recruiting-Funktionen wie INTERAMT-Integration und erweiterte Schnittstellen.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_015",
+      "question": "Was ist Self Service Portal?",
+      "expected_answer": "Das Self Service Portal ermöglicht Mitarbeitenden eigenständigen Zugriff auf ihre Daten, Anträge und Informationen.",
+      "category": "general"
+    },
+    {
+      "id": "train_016",
+      "question": "Wie funktioniert das Empfehlungsmanagement?",
+      "expected_answer": "Im Empfehlungsmanagement können Mitarbeitende Kandidaten für offene Stellen empfehlen und erhalten bei erfolgreicher Einstellung Prämien.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_017",
+      "question": "Was ist die Search&List Engine?",
+      "expected_answer": "Die Search&List Engine (SAL) ist ein mächtiges Suchwerkzeug für Abfragen und Auswertungen im System.",
+      "category": "general"
+    },
+    {
+      "id": "train_018",
+      "question": "Was sind Stammdatenanträge?",
+      "expected_answer": "Stammdatenanträge ermöglichen Änderungen an Personalstammdaten über einen genehmigungsbasierten Workflow.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_019",
+      "question": "Wie funktioniert die Gruppenerfassung?",
+      "expected_answer": "Die Gruppenerfassung ermöglicht die gleichzeitige Bearbeitung von Daten für mehrere Mitarbeitende oder Stellen.",
+      "category": "administration"
+    },
+    {
+      "id": "train_020",
+      "question": "Was ist Eingruppierung?",
+      "expected_answer": "Eingruppierung ordnet Mitarbeitende oder Stellen in Entgelttabellen und Tarifgruppen ein.",
+      "category": "administration"
+    },
+    {
+      "id": "train_021",
+      "question": "Was sind Zeugnisbausteine?",
+      "expected_answer": "Zeugnisbausteine sind notenbasierte Textvorlagen für die automatisierte Erstellung von Arbeitszeugnissen.",
+      "category": "documents"
+    },
+    {
+      "id": "train_022",
+      "question": "Wie funktioniert der Dokument-Workflow?",
+      "expected_answer": "Der Dokument-Workflow steuert die Erstellung, Freigabe und Archivierung von Dokumenten wie Verträgen und Zeugnissen.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_023",
+      "question": "Was ist das Vertragsmodul?",
+      "expected_answer": "Das Vertragsmodul verwaltet Arbeitsverträge, Vertragsänderungen und zugehörige Dokumente.",
+      "category": "documents"
+    },
+    {
+      "id": "train_024",
+      "question": "Wie funktioniert die digitale Personalakte?",
+      "expected_answer": "Die digitale Personalakte speichert alle mitarbeiterbezogenen Dokumente zentral und revisionssicher.",
+      "category": "documents"
+    },
+    {
+      "id": "train_025",
+      "question": "Was ist die Workflow Engine?",
+      "expected_answer": "Die Workflow Engine ist ein mächtiges Tool zum digitalen Abbilden von Unternehmensprozessen mit konfigurierbaren Prozessschritten.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_026",
+      "question": "Wie funktioniert die Kalenderverwaltung?",
+      "expected_answer": "Die Kalenderverwaltung zeigt Termine, Abwesenheiten und Ereignisse für Mitarbeitende und Teams an.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_027",
+      "question": "Was ist die Abwesenheitsverwaltung?",
+      "expected_answer": "Die Abwesenheitsverwaltung erfasst Urlaub, Krankheit und andere Abwesenheitsarten mit Genehmigungsworkflows.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_028",
+      "question": "Wie funktioniert das Bewerber-Matching?",
+      "expected_answer": "Das Bewerber-Matching vergleicht Bewerberprofil mit Stellenanforderungen anhand von Skills und Qualifikationen.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_029",
+      "question": "Was sind Recruiting-Kanäle?",
+      "expected_answer": "Recruiting-Kanäle sind verschiedene Quellen für Bewerbungen wie Jobportale, Social Media oder Direktbewerbungen.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_030",
+      "question": "Wie funktioniert die Bewerberverwaltung?",
+      "expected_answer": "Die Bewerberverwaltung organisiert Bewerbungen vom Eingang über Screening bis zur Einstellung oder Absage.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_031",
+      "question": "Was ist das Onboarding-Modul?",
+      "expected_answer": "Das Onboarding-Modul unterstützt die Einarbeitung neuer Mitarbeitender mit Aufgabenlisten und Checklisten.",
+      "category": "administration"
+    },
+    {
+      "id": "train_032",
+      "question": "Wie funktioniert das Offboarding?",
+      "expected_answer": "Das Offboarding organisiert den Austritt von Mitarbeitenden mit Aufgaben wie Rückgabe von Equipment und Wissenstransfer.",
+      "category": "administration"
+    },
+    {
+      "id": "train_033",
+      "question": "Was ist die Mitarbeiterentwicklung?",
+      "expected_answer": "Die Mitarbeiterentwicklung plant und verfolgt Karrierewege, Schulungen und Kompetenzentwicklung.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_034",
+      "question": "Wie funktioniert die Zielvereinbarung?",
+      "expected_answer": "Zielvereinbarungen definieren messbare Ziele für Mitarbeitende, die in Mitarbeitergesprächen besprochen werden.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_035",
+      "question": "Was ist die Leistungsbeurteilung?",
+      "expected_answer": "Die Leistungsbeurteilung bewertet die Arbeitsleistung von Mitarbeitenden anhand definierter Kriterien.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_036",
+      "question": "Wie funktioniert das Reporting?",
+      "expected_answer": "Das Reporting erstellt Auswertungen und Berichte über Personaldaten, KPIs und Prozesse.",
+      "category": "general"
+    },
+    {
+      "id": "train_037",
+      "question": "Was sind Standardabfragen?",
+      "expected_answer": "Standardabfragen sind vordefinierte Suchanfragen für häufig benötigte Auswertungen.",
+      "category": "general"
+    },
+    {
+      "id": "train_038",
+      "question": "Wie funktioniert der Datenexport?",
+      "expected_answer": "Der Datenexport ermöglicht das Exportieren von Daten in verschiedene Formate wie Excel oder CSV.",
+      "category": "general"
+    },
+    {
+      "id": "train_039",
+      "question": "Was ist der Datenimport?",
+      "expected_answer": "Der Datenimport ermöglicht das Einlesen von Daten aus externen Systemen in rexx HR.",
+      "category": "general"
+    },
+    {
+      "id": "train_040",
+      "question": "Wie funktionieren Schnittstellen in rexx?",
+      "expected_answer": "Schnittstellen verbinden rexx HR mit anderen Systemen wie Lohnbuchhaltung oder Active Directory.",
+      "category": "administration"
+    },
+    {
+      "id": "train_041",
+      "question": "Was ist Single Sign-On?",
+      "expected_answer": "Single Sign-On ermöglicht die Anmeldung mit bestehenden Unternehmens-Credentials ohne separate rexx-Anmeldung.",
+      "category": "administration"
+    },
+    {
+      "id": "train_042",
+      "question": "Wie funktioniert die Benachrichtigungsverwaltung?",
+      "expected_answer": "Die Benachrichtigungsverwaltung konfiguriert automatische E-Mails und Systembenachrichtigungen für verschiedene Ereignisse.",
+      "category": "administration"
+    },
+    {
+      "id": "train_043",
+      "question": "Was sind E-Mail-Vorlagen?",
+      "expected_answer": "E-Mail-Vorlagen sind standardisierte Textbausteine für automatisierte Kommunikation wie Einladungen oder Absagen.",
+      "category": "documents"
+    },
+    {
+      "id": "train_044",
+      "question": "Wie funktioniert die Briefvorlagenverwaltung?",
+      "expected_answer": "Die Briefvorlagenverwaltung erstellt und verwaltet Dokumentvorlagen mit Platzhaltern für personalisierte Briefe.",
+      "category": "documents"
+    },
+    {
+      "id": "train_045",
+      "question": "Was ist die Dokumentengenerierung?",
+      "expected_answer": "Die Dokumentengenerierung erstellt automatisch Dokumente aus Vorlagen mit Daten aus dem System.",
+      "category": "documents"
+    },
+    {
+      "id": "train_046",
+      "question": "Wie funktioniert die Versionskontrolle?",
+      "expected_answer": "Die Versionskontrolle speichert frühere Versionen von Dokumenten und ermöglicht die Nachverfolgung von Änderungen.",
+      "category": "documents"
+    },
+    {
+      "id": "train_047",
+      "question": "Was ist die Archivierung?",
+      "expected_answer": "Die Archivierung speichert abgeschlossene Vorgänge und Dokumente revisionssicher für spätere Zugriffe.",
+      "category": "documents"
+    },
+    {
+      "id": "train_048",
+      "question": "Wie funktioniert die DSGVO-Konformität?",
+      "expected_answer": "rexx HR unterstützt DSGVO-Konformität mit Funktionen wie Löschkonzepten, Auskunftserstellung und Einwilligungsverwaltung.",
+      "category": "administration"
+    },
+    {
+      "id": "train_049",
+      "question": "Was ist die Löschverwaltung?",
+      "expected_answer": "Die Löschverwaltung setzt Aufbewahrungsfristen um und löscht Daten automatisch nach Ablauf.",
+      "category": "administration"
+    },
+    {
+      "id": "train_050",
+      "question": "Wie funktioniert das Audit-Log?",
+      "expected_answer": "Das Audit-Log protokolliert alle Änderungen und Zugriffe im System für Nachvollziehbarkeit und Compliance.",
+      "category": "administration"
+    },
+    {
+      "id": "train_051",
+      "question": "Was sind Stellenanzeigen?",
+      "expected_answer": "Stellenanzeigen beschreiben offene Positionen mit Anforderungen und Aufgaben für das Recruiting.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_052",
+      "question": "Wie erstellt man eine Stellenanzeige?",
+      "expected_answer": "Stellenanzeigen werden im Recruiting-Modul erstellt mit Titel, Beschreibung, Anforderungen und Publizierungszielen.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_053",
+      "question": "Was ist der Bewerbungsprozess?",
+      "expected_answer": "Der Bewerbungsprozess umfasst die Schritte vom Bewerbungseingang über Screening und Interviews bis zur Entscheidung.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_054",
+      "question": "Wie funktioniert das Interview-Management?",
+      "expected_answer": "Das Interview-Management plant und koordiniert Vorstellungsgespräche mit Terminabstimmung und Feedbackerfassung.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_055",
+      "question": "Was ist die Talent-Pipeline?",
+      "expected_answer": "Die Talent-Pipeline sammelt interessante Kandidaten für zukünftige Positionen im Talent Pool.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_056",
+      "question": "Wie funktioniert der Talent Pool?",
+      "expected_answer": "Der Talent Pool speichert Bewerberdaten für spätere Kontaktaufnahme bei passenden Stellen.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_057",
+      "question": "Was ist Active Sourcing?",
+      "expected_answer": "Active Sourcing ist die proaktive Suche nach Kandidaten in externen Quellen und Netzwerken.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_058",
+      "question": "Wie funktioniert das Arbeitszeitmanagement?",
+      "expected_answer": "Das Arbeitszeitmanagement erfasst Arbeitszeiten, verwaltet Arbeitszeitmodelle und berechnet Überstunden.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_059",
+      "question": "Was sind Arbeitszeitmodelle?",
+      "expected_answer": "Arbeitszeitmodelle definieren Regelarbeitszeiten, Teilzeit und flexible Arbeitszeiten für verschiedene Mitarbeitergruppen.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_060",
+      "question": "Wie funktioniert die Überstundenverwaltung?",
+      "expected_answer": "Die Überstundenverwaltung erfasst Mehrarbeit, berechnet Ausgleich und ermöglicht Genehmigungsworkflows.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_061",
+      "question": "Was ist die Urlaubsverwaltung?",
+      "expected_answer": "Die Urlaubsverwaltung verwaltet Urlaubsansprüche, Anträge und Genehmigungen mit Kalenderübersicht.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_062",
+      "question": "Wie funktioniert die Krankmeldung?",
+      "expected_answer": "Krankmeldungen werden im System erfasst mit Dokumenten-Upload für Arbeitsunfähigkeitsbescheinigungen.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_063",
+      "question": "Was ist die Abwesenheitsübersicht?",
+      "expected_answer": "Die Abwesenheitsübersicht zeigt alle Abwesenheiten im Team oder Unternehmen in einer Kalenderansicht.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_064",
+      "question": "Wie funktioniert die Schichtplanung?",
+      "expected_answer": "Die Schichtplanung organisiert Arbeitsschichten und erstellt Dienstpläne für verschiedene Schichtmodelle.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_065",
+      "question": "Was ist die Projektzeit?",
+      "expected_answer": "Projektzeit erfasst Arbeitszeiten auf bestimmte Projekte oder Kostenstellen für Auswertungen.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_066",
+      "question": "Wie funktioniert die Skill-Matrix?",
+      "expected_answer": "Die Skill-Matrix zeigt Mitarbeiterkompetenzen in einer Übersicht für Teamvergleiche und Bedarfsanalysen.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_067",
+      "question": "Was sind Skill-Level?",
+      "expected_answer": "Skill-Level definieren Kompetenzstufen wie Anfänger, Fortgeschritten oder Experte für einzelne Skills.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_068",
+      "question": "Wie funktioniert die Kompetenzbeurteilung?",
+      "expected_answer": "Die Kompetenzbeurteilung bewertet Mitarbeiterfähigkeiten durch Selbsteinschätzung oder Vorgesetztenbewertung.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_069",
+      "question": "Was ist die Gap-Analyse?",
+      "expected_answer": "Die Gap-Analyse vergleicht vorhandene Skills mit Anforderungen und identifiziert Entwicklungsbedarf.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_070",
+      "question": "Wie funktioniert die Nachfolgeplanung?",
+      "expected_answer": "Die Nachfolgeplanung identifiziert potenzielle Nachfolger für Schlüsselpositionen im Unternehmen.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_071",
+      "question": "Was ist die Karriereplanung?",
+      "expected_answer": "Die Karriereplanung definiert mögliche Entwicklungswege und Karrierepfade für Mitarbeitende.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_072",
+      "question": "Wie funktioniert das Schulungsmanagement?",
+      "expected_answer": "Das Schulungsmanagement plant, verwaltet und dokumentiert Weiterbildungen und Trainings.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_073",
+      "question": "Was sind Pflichtschulungen?",
+      "expected_answer": "Pflichtschulungen sind verpflichtende Trainings wie Arbeitssicherheit oder Datenschutz mit Fristenverwaltung.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_074",
+      "question": "Wie funktioniert die Zertifikatsverwaltung?",
+      "expected_answer": "Die Zertifikatsverwaltung speichert Nachweise, Zertifikate und Qualifikationen mit Ablaufdatenverwaltung.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_075",
+      "question": "Was ist der Schulungskatalog?",
+      "expected_answer": "Der Schulungskatalog listet verfügbare Trainings und Seminare für die Mitarbeiterentwicklung.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_076",
+      "question": "Wie funktioniert die Bedarfsermittlung?",
+      "expected_answer": "Die Bedarfsermittlung identifiziert Schulungsbedarf basierend auf Kompetenzlücken und Zielen.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_077",
+      "question": "Was ist die Organisationsverwaltung?",
+      "expected_answer": "Die Organisationsverwaltung bildet die Unternehmensstruktur mit Abteilungen und Hierarchien ab.",
+      "category": "administration"
+    },
+    {
+      "id": "train_078",
+      "question": "Wie funktioniert das Organigramm?",
+      "expected_answer": "Das Organigramm visualisiert die Organisationsstruktur mit Hierarchien und Berichtslinien.",
+      "category": "administration"
+    },
+    {
+      "id": "train_079",
+      "question": "Was sind Kostenstellen?",
+      "expected_answer": "Kostenstellen ordnen Mitarbeitende und Stellen für die Budgetierung und Kostenrechnung zu.",
+      "category": "administration"
+    },
+    {
+      "id": "train_080",
+      "question": "Wie funktioniert die Standortverwaltung?",
+      "expected_answer": "Die Standortverwaltung verwaltet verschiedene Unternehmensstandorte mit Adressen und Zuordnungen.",
+      "category": "administration"
+    },
+    {
+      "id": "train_081",
+      "question": "Was ist die Stellenverwaltung?",
+      "expected_answer": "Die Stellenverwaltung organisiert Planstellen im Unternehmen mit Beschreibungen und Anforderungen.",
+      "category": "administration"
+    },
+    {
+      "id": "train_082",
+      "question": "Wie funktioniert die Stellenbesetzung?",
+      "expected_answer": "Die Stellenbesetzung ordnet Mitarbeitende Planstellen zu und zeigt Vakanzen an.",
+      "category": "administration"
+    },
+    {
+      "id": "train_083",
+      "question": "Was ist der Stellenplan?",
+      "expected_answer": "Der Stellenplan gibt eine Übersicht aller Planstellen mit Besetzungsstatus und Budgets.",
+      "category": "administration"
+    },
+    {
+      "id": "train_084",
+      "question": "Wie funktioniert die Personalstatistik?",
+      "expected_answer": "Die Personalstatistik erstellt Auswertungen zu Mitarbeiterzahlen, Fluktuation und anderen KPIs.",
+      "category": "administration"
+    },
+    {
+      "id": "train_085",
+      "question": "Was ist das Dashboard?",
+      "expected_answer": "Das Dashboard bietet eine visuelle Übersicht mit wichtigen Kennzahlen und Aktivitäten.",
+      "category": "general"
+    },
+    {
+      "id": "train_086",
+      "question": "Wie funktioniert die Favoritenverwaltung?",
+      "expected_answer": "Die Favoritenverwaltung speichert häufig genutzte Funktionen oder Datensätze für schnellen Zugriff.",
+      "category": "general"
+    },
+    {
+      "id": "train_087",
+      "question": "Was ist die Schnellsuche?",
+      "expected_answer": "Die Schnellsuche ermöglicht systemweites Suchen nach Personen, Dokumenten oder anderen Objekten.",
+      "category": "general"
+    },
+    {
+      "id": "train_088",
+      "question": "Wie funktioniert die erweiterte Suche?",
+      "expected_answer": "Die erweiterte Suche bietet detaillierte Filteroptionen und kombinierbare Suchkriterien.",
+      "category": "general"
+    },
+    {
+      "id": "train_089",
+      "question": "Was sind gespeicherte Suchen?",
+      "expected_answer": "Gespeicherte Suchen speichern komplexe Suchanfragen für wiederholte Verwendung.",
+      "category": "general"
+    },
+    {
+      "id": "train_090",
+      "question": "Wie funktioniert der Export?",
+      "expected_answer": "Der Export erstellt Downloads von Daten und Listen in verschiedenen Formaten wie Excel.",
+      "category": "general"
+    },
+    {
+      "id": "train_091",
+      "question": "Was ist die Listenansicht?",
+      "expected_answer": "Die Listenansicht zeigt Datensätze tabellarisch mit sortierbaren und filterbaren Spalten.",
+      "category": "general"
+    },
+    {
+      "id": "train_092",
+      "question": "Wie funktioniert die Detailansicht?",
+      "expected_answer": "Die Detailansicht zeigt alle Informationen eines einzelnen Datensatzes mit Bearbeitungsmöglichkeiten.",
+      "category": "general"
+    },
+    {
+      "id": "train_093",
+      "question": "Was sind Formulare?",
+      "expected_answer": "Formulare sind Eingabemasken für Daten mit konfigurierbaren Feldern und Validierungen.",
+      "category": "general"
+    },
+    {
+      "id": "train_094",
+      "question": "Wie funktioniert die Massenbearbeitung?",
+      "expected_answer": "Die Massenbearbeitung ermöglicht das gleichzeitige Ändern mehrerer Datensätze.",
+      "category": "general"
+    },
+    {
+      "id": "train_095",
+      "question": "Was ist die Wiedervorlage?",
+      "expected_answer": "Die Wiedervorlage erinnert an Aufgaben oder Fristen zu definierten Zeitpunkten.",
+      "category": "general"
+    },
+    {
+      "id": "train_096",
+      "question": "Wie funktioniert die Fristenverwaltung?",
+      "expected_answer": "Die Fristenverwaltung überwacht wichtige Termine und Fristen mit automatischen Erinnerungen.",
+      "category": "administration"
+    },
+    {
+      "id": "train_097",
+      "question": "Was sind Erinnerungen?",
+      "expected_answer": "Erinnerungen sind automatische Benachrichtigungen vor Ablauf von Fristen oder zu Terminen.",
+      "category": "administration"
+    },
+    {
+      "id": "train_098",
+      "question": "Wie funktioniert die Eskalation?",
+      "expected_answer": "Die Eskalation leitet überfällige Aufgaben automatisch an übergeordnete Stellen weiter.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_099",
+      "question": "Was sind Vertretungsregeln?",
+      "expected_answer": "Vertretungsregeln definieren wer bei Abwesenheit Aufgaben und Genehmigungen übernimmt.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_100",
+      "question": "Wie funktioniert die Delegation?",
+      "expected_answer": "Die Delegation ermöglicht das Übertragen von Aufgaben und Verantwortlichkeiten an andere Personen.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_101",
+      "question": "Was ist ein Publizierungsziel im rexx Recruiting?",
+      "expected_answer": "Ein Publizierungsziel ist ein Medium oder Kanal, auf dem eine Stellenanzeige veröffentlicht wird, zum Beispiel das eigene rexx Jobportal, externe Jobbörsen, Printmedien oder Multiposting-Zugänge.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_102",
+      "question": "Wofür wird das Publizierungsziel „Home“ in der rexx Suite verwendet?",
+      "expected_answer": "Das Publizierungsziel „Home“ steht für das rexx Jobportal, das als Karriereseite auf der eigenen Firmen-Website eingebunden ist und in der Regel bei jeder Vakanz genutzt wird.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_103",
+      "question": "Welchen Vorteil bietet das rexx Jobportal im Vergleich zu klassischen Jobbörsen?",
+      "expected_answer": "Das rexx Jobportal ist technisch und für Suchmaschinen optimiert, spielt Stellenanzeigen automatisch auf Plattformen wie Google for Jobs aus und liefert dadurch hohe Conversion Rates von Besuchenden zu qualifizierten Bewerbenden.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_104",
+      "question": "Was versteht man im rexx Recruiting unter Multiposting?",
+      "expected_answer": "Multiposting ist die kostenfreie Anbindung an einen Multiposter mit hunderten Jobbörsen, über den kostenpflichtige Schaltungen gebucht werden können, während Verwaltung und Daten der Vakanz weiterhin im rexx Recruiting liegen.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_105",
+      "question": "Welche Information wird im Feld „Wie gefunden“ einer Bewerbung gespeichert?",
+      "expected_answer": "Im Feld „Wie gefunden“ wird die Herkunft der Bewerbung gespeichert, also über welches Publizierungsziel oder welche Jobbörse der Bewerbende auf die Stelle aufmerksam geworden ist.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_106",
+      "question": "Wofür steht die Kennzahl CPC und wie wird sie im Recruiting-Kontext verwendet?",
+      "expected_answer": "CPC steht für Cost per Candidate und beschreibt alle Kosten einer Vakanz im Verhältnis zur Anzahl der eingegangenen Bewerbungen, einschließlich zusätzlicher Kosten, die nicht direkt an eine Publizierung gekoppelt sind.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_107",
+      "question": "Wofür steht die Kennzahl CPH und wozu kann sie herangezogen werden?",
+      "expected_answer": "CPH steht für Cost per Hire und beschreibt alle Kosten einer Vakanz im Verhältnis zu den Einstellungen; sie kann beispielsweise mit den Kosten eines Headhunters verglichen werden, um den günstigeren Rekrutierungsweg zu ermitteln.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_108",
+      "question": "Was beschreibt die Conversion Rate A > F im Widget „Publizierung“?",
+      "expected_answer": "Die Conversion Rate A > F setzt die Aufrufe der Stellenanzeige ins Verhältnis zu den Aufrufen des Bewerbungsformulars und zeigt, wie viele Besuchende nach Lesen der Anzeige das Formular öffnen.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_109",
+      "question": "Welche Informationen stellt das Widget „Publizierung“ in der Vakanzakte bereit?",
+      "expected_answer": "Das Widget „Publizierung“ listet alle direkten und indirekten Publizierungen einer Vakanz mit Status, Kosten, Aufrufen, Conversion Rates sowie Kennzahlen wie CPC und CPH übersichtlich auf.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_110",
+      "question": "Welche Aufgabe erfüllt das Widget „Statistik“ in der Vakanzakte?",
+      "expected_answer": "Das Widget „Statistik“ zeigt die statistischen Kennzahlen einer Vakanz je Publizierungsziel in Balkendiagrammen und vergleicht sie mit den Werten der gewählten Jobkategorie und des Gesamtbestands im gewählten Zeitraum.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_111",
+      "question": "Wozu dient das Modul „Zeitzonen“ in der rexx Suite?",
+      "expected_answer": "Das Modul „Zeitzonen“ ermöglicht die Zuordnung passender Zeitzonen zum Personal, damit Termine, Gespräche und andere zeitbezogene Vorgänge bei international verteilten Standorten korrekt geplant und angezeigt werden.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_112",
+      "question": "Wo werden Zeitzonen systemweit in der rexx Suite aktiviert?",
+      "expected_answer": "Zeitzonen werden über Systemdaten > Allgemeine Einstellungen mit der Option „Zeitzonen aktiv?“ systemweit aktiviert.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_113",
+      "question": "Wie wird festgelegt, bei welchen Modulen die Zeitzonen berücksichtigt werden?",
+      "expected_answer": "In Systemdaten > Zeitzonen kann im Seitenmenü „Module“ pro Modul eingestellt werden, ob Zeitzonen berücksichtigt werden sollen oder nicht.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_114",
+      "question": "Welche Funktion haben die Berechtigungen 1.286 und 1.285 im Zusammenhang mit Zeitzonen?",
+      "expected_answer": "Die Berechtigung 1.286 „Zeitzonen bearbeiten“ erlaubt die Konfiguration der Zeitzonen in den Systemdaten, und die Berechtigung 1.285 „Zeitzonen Schnellzugriff“ schaltet den Button für den schnellen Zeitzonenwechsel in my rexx frei.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_115",
+      "question": "Wie kann ein Mitarbeiter seine eigene Zeitzone über den Schnellzugriff einstellen?",
+      "expected_answer": "Ein Mitarbeiter kann über einen Klick auf seinen Account und die Weltkugel im Schnellzugriff seine Zeitzone auswählen, sofern die entsprechende Berechtigung im Profil gesetzt ist.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_116",
+      "question": "Wie wirken sich aktive Zeitzonen auf Reminder-Jobs in rexx aus?",
+      "expected_answer": "Bei aktiven Zeitzonen werden Reminder nicht mehr einmal täglich um 4 Uhr ausgeführt, sondern in jeder Zeitzone um 4 Uhr; dadurch laufen die Reminderprozesse stündlich im Hintergrund.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_117",
+      "question": "Welche Bedeutung haben Zeitzonen für die Zeiterfassung im Bereich Zeitmanagement?",
+      "expected_answer": "Bei der Zeiterfassung werden Ein- und Ausstempelzeiten sowie Buchungsübersichten in der Zeitzone des jeweiligen Personals geführt, und auch Kappungen, Autopausen und Jahresabschlüsse berücksichtigen die unterschiedlichen Zeitzonen.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_118",
+      "question": "Wie werden Kalendertermine im Zusammenspiel mit Zeitzonen angezeigt?",
+      "expected_answer": "Mitarbeitende sehen Kalendertermine grundsätzlich in ihrer bevorzugten Zeitzone, und Termine wie Job-Interviews oder Veranstaltungen werden beim Gegenüber automatisch in dessen Zeitzone umgerechnet.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_119",
+      "question": "Wie werden Zeitzonen bei Veranstaltungen in rexx berücksichtigt?",
+      "expected_answer": "Bei Veranstaltungen muss bei der Planung eine Zeitzone angegeben werden, und auch bei der Publizierung der Veranstaltung wird die Zeitzone gespeichert, sodass Teilnehmende die Termine in ihrer eigenen Zeitzone sehen.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_120",
+      "question": "Welche Rolle spielt das Personal / User Setup im Zusammenhang mit Zeitzonen?",
+      "expected_answer": "Im Personal / User Setup kann unter my rexx Einstellungen eine Standardzeitzone hinterlegt werden, die neuen Mitarbeitenden automatisch zugeordnet wird.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_121",
+      "question": "Welche Kommunikationsszenarien unterstützt das Modul rexx Video?",
+      "expected_answer": "rexx Video unterstützt innerbetriebliche Kommunikation sowie Gespräche mit Bewerbenden und externen Personen durch Videotelefonie, Videokonferenzen, Chatfunktionen und weitere integrierte Features.",
+      "category": "general"
+    },
+    {
+      "id": "train_122",
+      "question": "Über welche Wege kann ein Videoanruf direkt aus der rexx Suite gestartet werden?",
+      "expected_answer": "Ein Videoanruf kann zum Beispiel aus der Personalakte über den Feldbereich „Telekommunikation“, aus dem Chat-Modul, aus dem Portalprofil einer Person, über „Meine Aufgaben“ oder über geplante Videokonferenzen im Kalender gestartet werden.",
+      "category": "general"
+    },
+    {
+      "id": "train_123",
+      "question": "Wo werden die Daten von rexx Video verarbeitet und warum ist das datenschutzrelevant?",
+      "expected_answer": "Die Daten von rexx Video laufen ausschließlich über ein deutsches Rechenzentrum oder optional über einen eigenen Server, sodass verschlüsselte Daten ohne Weitergabe von Nutzerdaten an externe Videochat-Anbieter verarbeitet werden.",
+      "category": "general"
+    },
+    {
+      "id": "train_124",
+      "question": "Warum wird für die Nutzung von rexx Video der Browser Google Chrome empfohlen?",
+      "expected_answer": "Google Chrome wird empfohlen, weil dieser Browser die im rexx Video Tool verwendete Videotechnik besonders gut unterstützt.",
+      "category": "general"
+    },
+    {
+      "id": "train_125",
+      "question": "Welche Vorteile bietet die Kachelansicht in einer Videokonferenz?",
+      "expected_answer": "Die Kachelansicht zeigt alle Teilnehmenden gleichzeitig nebeneinander und eignet sich für Gesprächsrunden; zur Sicherung der Performance werden dabei nur die letzten aktiven Videostreams eingeblendet.",
+      "category": "general"
+    },
+    {
+      "id": "train_126",
+      "question": "Welche Möglichkeiten gibt es, weitere Personen zu einer laufenden Videokonferenz einzuladen?",
+      "expected_answer": "Teilnehmende können über einen kopierten Konferenzlink, über den Dialog „Einladen“ für Personal, Bewerbende, Kontakte und E-Mail-Adressen oder per Drag & Drop aus der Chat-Kontaktliste zur laufenden Videokonferenz hinzugefügt werden.",
+      "category": "general"
+    },
+    {
+      "id": "train_127",
+      "question": "Wie können Inhalte wie Präsentationen in rexx Video geteilt werden?",
+      "expected_answer": "Über die Funktion „Bildschirm freigeben“ oder die Taste D kann ein Bildschirm oder ein einzelnes Fenster ausgewählt und für alle Teilnehmenden der Videokonferenz freigegeben werden.",
+      "category": "general"
+    },
+    {
+      "id": "train_128",
+      "question": "Wer erhält nach einer Aufzeichnung einer Videokonferenz den Link zur Aufnahme?",
+      "expected_answer": "Der Link zur gespeicherten Aufnahme wird per E-Mail nur an im System registrierte rexx User verschickt, die an der Videokonferenz teilgenommen haben; externe Teilnehmende erhalten keine E-Mail mit der Aufzeichnung.",
+      "category": "general"
+    },
+    {
+      "id": "train_129",
+      "question": "Wie wird rexx Video in den Bewerbungsprozess integriert?",
+      "expected_answer": "Im Recruiting kann bei der Anlage eines Interviews das Medium „Video-Interview“ gewählt werden, und über eine Automail erhalten alle Gesprächsteilnehmenden einen Link zur geplanten Videokonferenz.",
+      "category": "general"
+    },
+    {
+      "id": "train_130",
+      "question": "Welche Hardwareeinstellungen können Nutzer im rexx Video Tool vornehmen?",
+      "expected_answer": "In den Einstellungen des Video Tools können Kamera, Mikrofon und Ausgabegerät ausgewählt und angepasst werden.",
+      "category": "general"
+    },
+    {
+      "id": "train_131",
+      "question": "Welche zwei Möglichkeiten bietet rexx zur Dokumentation von Homeoffice?",
+      "expected_answer": "rexx bietet einerseits Homeoffice per Kalenderbuchung und andererseits Homeoffice per Antrag über den Workflow-Typ „Homeoffice / Mobiles Arbeiten“ an.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_132",
+      "question": "Für welche Fälle ist Homeoffice per Kalenderbuchung vor allem gedacht?",
+      "expected_answer": "Homeoffice per Kalenderbuchung ist für zentral verwaltete oder im Selfservice erfasste, regelmäßige Homeoffice-Zeiten gedacht, etwa wenn jemand jeden Montag oder mehrere Wochen am Stück von zu Hause arbeitet.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_133",
+      "question": "Für welches typische Szenario eignet sich Homeoffice per Antrag besonders gut?",
+      "expected_answer": "Homeoffice per Antrag eignet sich für spontane und unregelmäßige Homeoffice-Tage, zum Beispiel wenn jemand zu Hause auf einen angekündigten Technikertermin warten muss.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_134",
+      "question": "Wie werden Homeoffice-Kalendertage seit dem Update im System gezählt?",
+      "expected_answer": "Statt Kalendertagen werden die relevanten Arbeitstage gezählt, die im Homeoffice verbracht werden, wobei Arbeitszeitkonfiguration, Abwesenheiten und hinterlegte Feiertage berücksichtigt werden.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_135",
+      "question": "Wie hoch ist der Standardwert für maximal erlaubte Homeoffice-Tage per Antrag im Kalenderjahr und wo wird er eingestellt?",
+      "expected_answer": "Standardmäßig sind sechs Homeoffice-Tage per Antrag im Kalenderjahr erlaubt; dieser Maximalwert wird in den Systemdaten unter Allgemeine Einstellungen im Feld „Homeoffice Antrag max. Tage“ festgelegt.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_136",
+      "question": "Wie wird der Maximalwert für Homeoffice-Tage bei unterjährigem Ein- oder Austritt eines Mitarbeiters behandelt?",
+      "expected_answer": "Bei unterjährigem Ein- oder Austritt wird der Maximalwert für Homeoffice-Tage per Antrag anteilig, also gequotelt, auf das betreffende Kalenderjahr berechnet.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_137",
+      "question": "Welches Systemfeld erlaubt individuelle Regelungen für die maximalen Homeoffice-Tage per Antrag?",
+      "expected_answer": "Das Systemfeld „Homeoffice Antrag max. Tage“ in der Personalakte im Feldbereich „Vertrag & Austritt“ überschreibt die systemweite Einstellung und erlaubt individuelle Maximalwerte pro Person.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_138",
+      "question": "In welchen Fällen kann ein Homeoffice-Antrag nicht abgesendet werden?",
+      "expected_answer": "Ein Homeoffice-Antrag kann nicht abgesendet werden, wenn der beantragte Zeitraum den jährlichen Maximalwert überschreiten würde, bereits Homeoffice für diese Tage gebucht oder beantragt ist, Abwesenheiten vorliegen oder es sich nicht um reguläre Arbeitstage handelt.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_139",
+      "question": "Ab welchem Zeitpunkt werden genehmigte Homeoffice-Anträge im Kalender sichtbar und unter welcher Terminart?",
+      "expected_answer": "Genehmigte Homeoffice-Anträge erscheinen im Kalender erst nach Genehmigung als eigene Terminart „Homeoffice per Antrag“.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_140",
+      "question": "Wann zeigt das Häuschen-Icon im Portalprofil den Homeoffice-Status an?",
+      "expected_answer": "Das Häuschen-Icon, das den Homeoffice-Status anzeigt, wird erst sichtbar, wenn für den aktuellen Tag ein Homeoffice-Antrag genehmigt wurde; das Icon kann mit einem Zeitversatz von bis zu fünf Minuten nach der Genehmigung erscheinen.",
+      "category": "time_management"
+    },
+    {
+      "id": "train_141",
+      "question": "Welches Ziel verfolgen Skilltags im rexx Recruiting?",
+      "expected_answer": "Skilltags sollen Kompetenzen dezentral erfassen, eine umfassende Sammlung potenzieller Skills im System aufbauen und so das Matching zwischen Vakanzen und Bewerbungen unterstützen, insbesondere in Kombination mit dem Modul AI Hiring.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_142",
+      "question": "Woraus setzen sich die Skilltags in der Vakanzakte zusammen?",
+      "expected_answer": "Die Skilltags in der Vakanzakte stammen einerseits aus den Skills, die aus dem HR-Modul mit der Stelle übergeben werden, und andererseits aus manuell hinzugefügten Skilltags, die über eine Autocomplete-Funktion ergänzt werden können.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_143",
+      "question": "Was bedeuten die Glühbirnen- und Haken-Icons bei Skilltags?",
+      "expected_answer": "Glühbirnen-Icons kennzeichnen Skilltags, für die ein entsprechender Skill im System existiert, während Haken-Icons genehmigte Skilltags aus der internen Skilltag-Verwaltung mit dem Status „Genehmigt“ markieren.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_144",
+      "question": "In welchem Bereich der Bewerbungsakte werden Score und Skilltags angezeigt und wie hieß dieser Bereich früher?",
+      "expected_answer": "Score und Skilltags werden im Bereich „Analyse“ der Bewerbungsakte angezeigt, der zuvor „Dokumente“ hieß.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_145",
+      "question": "Wie wird der Score einer Bewerbung im Zusammenhang mit Skilltags berechnet?",
+      "expected_answer": "Der Score ergibt sich aus dem Verhältnis der erfüllten Skilltags in der Bewerbung zu den in der Vakanz geforderten Skilltags, zum Beispiel führen vier erfüllte von zehn geforderten Skilltags zu einem Score von 40 Prozent.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_146",
+      "question": "Welche zusätzliche Rolle spielt das Modul AI Hiring bei der Bewertung des Scores?",
+      "expected_answer": "Ist das Modul AI Hiring aktiv, fließt zusätzlich eine Analyse anonymisierter Bewerbungsunterlagen und der hinterlegten Vakanzen in die Bewertung ein, die jedoch nur empfehlenden Charakter hat; die Entscheidung bleibt immer beim Menschen.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_147",
+      "question": "Welche Bedeutung haben die Farben Grün, Rot und Blau bei Skilltags im Abgleich zwischen Vakanz und Bewerbung?",
+      "expected_answer": "Grün markiert Skilltags, die in der Vakanz hinterlegt und in den Bewerbungsunterlagen gefunden wurden, Rot kennzeichnet geforderte, aber nicht gefundene Skilltags und Blau steht für zusätzlich gefundene Skilltags, die nicht in der Vakanz hinterlegt sind.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_148",
+      "question": "Was ändert sich bei der farblichen Darstellung der Skilltags, wenn das Modul AI Hiring deaktiviert ist?",
+      "expected_answer": "Bei deaktiviertem AI Hiring findet kein automatischer Abgleich mit den Bewerbungsunterlagen statt, und die farbliche Kennzeichnung der Skilltags muss vollständig manuell durch die Benutzenden erfolgen.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_149",
+      "question": "Welche Berechtigungen steuern die Anzeige und Bearbeitung des Bewerbungs-Scores?",
+      "expected_answer": "Die Berechtigung 30351 „Bewerbungsdetails: Score anzeigen“ erlaubt das Anzeigen des Scores, und die Berechtigung 30352 „Bewerbungsdetails: Score bearbeiten“ ermöglicht Änderungen am Score und setzt 30351 voraus.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_150",
+      "question": "Wie unterstützt die parallele Anzeige von Bewerbungsmappe und Analyse-Bereich die Arbeit im Recruiting?",
+      "expected_answer": "Wenn der Bereich „Analyse“ in der rechten Spalte positioniert ist, öffnet sich die Bewerbungsmappe so, dass Score und Skilltags gleichzeitig sichtbar bleiben, was das gleichzeitige Prüfen der Unterlagen und das Anpassen der Analyse erleichtert.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_151",
+      "question": "Was ist die Rumpfdatenreduzierung im rexx Recruitment und welches Hauptziel verfolgt sie?",
+      "expected_answer": "Die Rumpfdatenreduzierung ist eine Funktion zur datenschutzkonformen Reduzierung von Bewerberdaten, bei der Anlagen und definierte Inhalte gelöscht werden, damit gesetzliche Aufbewahrungsfristen eingehalten und nur notwendige Rumpfdaten erhalten bleiben.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_152",
+      "question": "Welche drei Vorteile nennt das Dokument als Gründe für die Einführung der Rumpfdatenreduzierung?",
+      "expected_answer": "Als Gründe werden Datenschutz, Performance durch geringeres Datenvolumen pro Bewerber und die Kontrolle des vereinbarten Lizenz- bzw. Bewerbervolumens genannt.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_153",
+      "question": "Wo wird in der Anwendung konfiguriert, welche Bewerberfelder von der Rumpfdatenreduzierung ausgenommen werden?",
+      "expected_answer": "Die Konfiguration erfolgt unter Admin, Ticket / Systemdaten / Rumpfdaten, wo die selektierten und markierten Felder festgelegt werden, die nach einer Datenreduzierung erhalten bleiben.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_154",
+      "question": "Welche Arten von Bewerberdaten empfiehlt rexx aus Datenschutzgründen bei der Rumpfdatenreduzierung zu löschen?",
+      "expected_answer": "Es wird empfohlen, Kommunikation, Formschreiben, Interviews und Formulare des Bewerbers bei der Rumpfdatenreduzierung zu löschen.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_155",
+      "question": "Warum sollten bestimmte Felder wie Anrede, Vorname und Geburtsdatum von der Rumpfdatenreduzierung ausgenommen werden, wenn ein DataWarehouse genutzt wird?",
+      "expected_answer": "Diese Felder werden für Auswertungen im DataWarehouse und zur Doublettenerkennung benötigt, zum Beispiel für Geschlecht, Alter, Eingänge und die Herkunft der Bewerbung, und müssen daher erhalten bleiben.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_156",
+      "question": "Was gilt für die Auswertbarkeit von Bewerberdaten, nachdem sie auf Rumpfdaten reduziert wurden?",
+      "expected_answer": "Gelöschte Daten können nach der Rumpfdatenreduzierung nicht mehr ausgewertet werden, auch nicht rückwirkend für die Vergangenheit.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_157",
+      "question": "Welche grundsätzliche Logik gilt für die Fristen der automatischen Rumpfdatenreduzierung und Löschung von Bewerbern?",
+      "expected_answer": "Die Fristen beginnen erst zu laufen, wenn ein Bewerber einen finalen Metastatus wie Absage oder Eingestellt erreicht hat; wie dieser Status erreicht wird, ist dabei unerheblich.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_158",
+      "question": "Wer kann die Fristen für Rumpfdatenreduzierung und automatische Löschung technisch im System hinterlegen?",
+      "expected_answer": "Die Fristen werden ausschließlich durch rexx systems über interne Systemeinstellungen hinterlegt und erst nach schriftlicher Bestätigung durch den Kunden umgesetzt.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_159",
+      "question": "Welche Unterschiede können bei den Fristen zwischen normalen Bewerbungen und Poolbewerbungen definiert werden?",
+      "expected_answer": "Es können separate Fristen für die Rumpfdatenreduzierung und Löschung von normalen Bewerbungen und Poolbewerbungen hinterlegt werden, sodass beide Bewerberarten unterschiedlich behandelt werden.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_160",
+      "question": "Wie hängt die Rumpfdatenreduzierung mit dem vereinbarten Bewerber-Lizenzvolumen zusammen?",
+      "expected_answer": "Das vereinbarte Bewerbervolumen umfasst alle Bewerbungen des aktuellen Kalenderjahres inklusive nicht reduzierter Vorjahresbewerbungen; durch Rumpfdatenreduzierung und Löschung wird dieses Volumen verringert und das Lizenzkontingent entlastet.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_161",
+      "question": "Was ist das JobPortal RockMe im Kontext von rexx systems?",
+      "expected_answer": "JobPortal RockMe ist ein vorkonfiguriertes, responsives Standard-Jobportal von rexx, das als Vorlage für das Karriereportal eines Kunden dient und umfangreich angepasst werden kann.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_162",
+      "question": "Was versteht man bei RockMe unter einem Standardportal?",
+      "expected_answer": "Ein Standardportal ist ein eigenständiges Karriereportal mit eigener Domain oder Subdomain, das auf Basis der vorgegebenen RockMe-Optionen konfiguriert wird und ohne individuelle Sonderentwicklung auskommt.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_163",
+      "question": "Welche technischen Voraussetzungen gelten für die Domain des RockMe-Jobportals?",
+      "expected_answer": "Für die Portaldomain muss ein CNAME-Eintrag auf die rexx Backend Domain gesetzt werden, und rexx kann ein Webserverzertifikat bereitstellen oder ein kundeneigenes Zertifikat gegen Aufwand einbinden.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_164",
+      "question": "Wie ist das RockMe-Portal hinsichtlich Responsive Design standardmäßig auf unterschiedliche Endgeräte ausgelegt?",
+      "expected_answer": "RockMe verwendet vordefinierte Breakpoints für Desktop mit Breite größer 820 Pixel, Tablet zwischen 820 und 481 Pixel sowie Phone mit Breite bis 480 Pixel, sodass sich Layout und Darstellung automatisch anpassen.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_165",
+      "question": "Aus welchen Hauptabschnitten besteht die Startseite des RockMe-Portals?",
+      "expected_answer": "Die Startseite besteht unter anderem aus dem Header, einem Titelbildbereich, Kacheln mit Links zur Stellenliste und Contentseiten, einem optionalen Veranstaltungsbereich, einer Bannergrafik und einem Footer mit Links zu Contentseiten.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_166",
+      "question": "Welche Inhalte können über die Contentseiten des RockMe-Portals bereitgestellt werden?",
+      "expected_answer": "Auf den Contentseiten können frei gestaltete Inhalte wie Unternehmensvorstellung, Perspektiven, FAQ oder Bewerbungstipps inklusive Text, Bildern und eingebetteten YouTube-Videos bereitgestellt werden.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_167",
+      "question": "Welche Filtermöglichkeiten stehen in der Stellenliste des RockMe-Portals standardmäßig zur Verfügung?",
+      "expected_answer": "Die Stellenliste bietet eine Freitextsuche, Filter für PLZ oder Ort, einen Umkreisfilter sowie auswählbare Listen für Standorte, Karrierelevel und Unternehmensbereiche.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_168",
+      "question": "Wie kann der Kunde das Erscheinungsbild der Buttons im RockMe-Karriereportal anpassen?",
+      "expected_answer": "Der Kunde kann unter anderem Button-Farbe, Mouseover-Farbe, Schriftgröße, Schriftfarbe und die Abrundung der Ecken in Pixeln für alle Buttons und Suchfelder definieren.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_169",
+      "question": "Wo werden die Listeneinträge für die Filter Standorte, Karrierelevel und Unternehmensbereich gepflegt?",
+      "expected_answer": "Die Einträge für Standorte, Karrierelevel und Unternehmensbereich können vom Kunden über das rexx Backend gepflegt und dort beliebig erweitert oder angepasst werden.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_170",
+      "question": "Was ist ein Jobtemplate im RockMe-Kontext und wie viele werden standardmäßig eingerichtet?",
+      "expected_answer": "Ein Jobtemplate ist ein strukturiertes Layout für die Darstellung der Stellenangebote im Portal, und im Standard wird ein Jobtemplate je Portal eingerichtet.",
+      "category": "recruiting"
+    },
+    {
+      "id": "train_171",
+      "question": "Welches Problem soll die neue Darstellung von Rollen wie Ersthilfe und Brandschutzhilfe in rexx lösen?",
+      "expected_answer": "Die neuen Rollen sollen eine übersichtliche, pflegeleichte Darstellung gesetzlich vorgeschriebener Funktionen wie Ersthilfe und Brandschutzhilfe ermöglichen, ohne zusätzliche Stellen mit Auswirkungen auf FTE und Headcount anlegen zu müssen.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_172",
+      "question": "Warum ist die Modellierung von Ersthelfern über zusätzliche Stellen in allen Organisationseinheiten oft unpraktisch?",
+      "expected_answer": "In großen Organisationen wäre das Anlegen zusätzlicher Stellen in allen betroffenen Organisationseinheiten sehr aufwändig und würde außerdem den FTE- und Headcount-Betrachtungen der Einheiten unerwünscht beeinflussen.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_173",
+      "question": "Wie heißen die zwei neuen Stellenklassen, die für diese besonderen Rollen eingeführt wurden?",
+      "expected_answer": "Die neuen Stellenklassen heißen Erste Hilfe und Brandschutzhilfe.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_174",
+      "question": "Wie verhalten sich die neuen Stellenklassen im Orgtree im Hinblick auf Vererbung?",
+      "expected_answer": "Die Stellenklassen Erste Hilfe und Brandschutzhilfe verhalten sich wie Leitungsstellen und vererben ihre Funktion in den Organisationsbaum nach unten, solange in einer untergeordneten Organisationseinheit keine eigene Stelle mit dieser Stellenklasse existiert.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_175",
+      "question": "Warum haben Besetzungen von Stellen der Klassen Erste Hilfe und Brandschutzhilfe keinen Einfluss auf FTE und Headcount?",
+      "expected_answer": "Diese Pseudostellen werden zwangsweise mit einem Besetzungsanteil von 0 Prozent geführt, sodass sie in FTE-Berechnungen, Headcount-Auswertungen und der Anzeige des Personals im Orgtree nicht berücksichtigt werden.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_176",
+      "question": "Warum ist es sinnvoll, für Ersthilfe- und Brandschutzaufgaben Skills mit Verfallsdatum anzulegen?",
+      "expected_answer": "Da diese Personen regelmäßig geschult werden müssen, ermöglichen Skills mit Verfallsdatum eine strukturierte Überwachung der Gültigkeit der Qualifikation und das rechtzeitige Planen von Auffrischungsschulungen.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_177",
+      "question": "Worin besteht der Unterschied zwischen automatisch und manuell ausgelöstem Skillverfall?",
+      "expected_answer": "Bei automatisch ausgelöstem Skillverfall wird das Skill nach Ablauf der Frist auf die niedrigste Stufe des Bewertungssystems zurückgesetzt, während beim manuellen Skillverfall das Skill formal bestehen bleibt und aktiv vom Verantwortlichen geändert oder entzogen werden muss.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_178",
+      "question": "Wofür wird der Reminder-Typ Skill Verfall eingesetzt?",
+      "expected_answer": "Der Reminder-Typ Skill Verfall erinnert rechtzeitig vor Ablauf der eingestellten Frist an verfallende Skills, damit Maßnahmen wie Schulungen oder Veranstaltungen zur Wiedererlangung der Qualifikation organisiert werden können.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_179",
+      "question": "Nenne typische Schritte, um Skillverfall und Auffrischung für Brandschutz- und Ersthilfeskills im System abzubilden.",
+      "expected_answer": "Typische Schritte sind: Skills mit Zyklus und Verfallslogik im Skilltree anlegen, entsprechende Stellen mit Zielskills ausstatten, Skills den Mitarbeitenden zuweisen, einen Skill-Verfall-Reminder einrichten und über Veranstaltungen mit Skillvererbung Auffrischungen planen und zuordnen.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_180",
+      "question": "Welche Verbesserung gab es im Zusammenhang mit Stellenklassen in der Personalliste?",
+      "expected_answer": "In der Personalliste wurde der Filter Stellenklasse auf Multiselect umgestellt, sodass gezielt nach mehreren Stellenklassen gleichzeitig gefiltert werden kann.",
+      "category": "skillmanagement"
+    },
+    {
+      "id": "train_181",
+      "question": "Welches Ziel verfolgt der Workflow Designer in der rexx Suite?",
+      "expected_answer": "Der Workflow Designer stellt Workflows grafisch als Flowchart dar und ermöglicht eine benutzerfreundliche Konfiguration von Workflows per Drag-and-drop, sodass auch komplexe Prozesse übersichtlich geplant und angepasst werden können.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_182",
+      "question": "Für welche Arten von Geschäftsprozessen werden Workflows in rexx typischerweise eingesetzt?",
+      "expected_answer": "Workflows werden zum Beispiel für Abwesenheiten, Ausstattung, Dokumente, Schichtwechsel, Skills, Standardanträge, Stellenanträge, Veranstaltungen, Zeiterfassung und Zertifikate eingesetzt, je nach beauftragtem Modulumfang.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_183",
+      "question": "Wie sieht das Grundgerüst eines neu angelegten Workflows im Workflow Designer aus?",
+      "expected_answer": "Ein neuer Workflow besteht im Designer aus einem Startknoten für den Workflow, der Antragsstellung als erster Raute und dem Ende des Gesamtprozesses; bei Dokumentenworkflows kommt zusätzlich ein eigener Prozessendeknoten hinzu.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_184",
+      "question": "Wie werden Workflowschritte im Workflow Designer dargestellt und hinzugefügt?",
+      "expected_answer": "Schritte werden als Rauten dargestellt und können per Drag-and-drop aus der linken Seitenleiste an zulässige Positionen wie die Antragsstellung oder bestehende Schritte gezogen werden.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_185",
+      "question": "Worin unterscheidet sich die Darstellung paralleler und serieller Schritte im Workflow Designer?",
+      "expected_answer": "Parallele Schritte werden nebeneinander in einer Gruppe gezeigt, während serielle Schritte untereinander angeordnet werden und den sequentiellen Ablauf verdeutlichen.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_186",
+      "question": "Wie werden Aktionen wie Genehmigen oder Ablehnen im Workflow Designer visualisiert?",
+      "expected_answer": "Schrittaktionen wie Genehmigen, Ablehnen, Stornieren, Erledigen, Information und Rückgabe werden als farbige Rechtecke unterhalb eines Schritts dargestellt.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_187",
+      "question": "Was ist ein Teil-Workflow und wie wird er im Workflow Designer dargestellt?",
+      "expected_answer": "Ein Teil-Workflow ist eine eigene Workflowakte, die aus einem Schritt heraus ausgelöst wird; im Designer erscheint er als graue Ellipse und bewirkt nach seiner finalen Genehmigung eine Fortsetzung des Hauptworkflows entsprechend der Prozessdefinition.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_188",
+      "question": "Welche Funktion hat die linke Seitenleiste im Workflow Designer?",
+      "expected_answer": "In der linken Seitenleiste werden alle Elemente angezeigt, die per Drag-and-drop in den Prozess gezogen werden können, zum Beispiel neue Schritte, Aktionen und indirekte Signaturplatzhalter.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_189",
+      "question": "Was zeigt die rechte Seitenleiste an, wenn ein Benutzer auf ein Element im Workflow klickt?",
+      "expected_answer": "Die rechte Seitenleiste zeigt die zu diesem Element gehörenden Einstellungen, etwa allgemeine Workflowparameter, Antragsstellungsfelder, Schrittempfänger oder Aktionsbezeichnungen, die dort direkt bearbeitet werden können.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_190",
+      "question": "Welche Neuerung gibt es im Workflow Designer im Umgang mit Zusatzfeldern der Antragsstellung und der Schritte?",
+      "expected_answer": "Zusatzfelder können direkt im Workflow hinzugefügt werden, und es lässt sich unmittelbar einstellen, ob sie kein Pflichtfeld, immer Pflichtfeld oder nur Anzeige sind, ohne separat in die Felderkonfiguration wechseln zu müssen.",
+      "category": "workflows"
+    },
+    {
+      "id": "train_191",
+      "question": "Welchen Zweck verfolgt die Funktion Mein Team im Selfservice-Portal?",
+      "expected_answer": "Mein Team stellt ein organigrammähnliches Bild dar, das die Mitarbeitenden und ihre Teams in den Mittelpunkt rückt, damit Nutzer ihre Kolleginnen und Kollegen, Ansprechpartner und die umgebenden Teams schnell kennenlernen können.",
+      "category": "general"
+    },
+    {
+      "id": "train_192",
+      "question": "Wie verhält sich Mein Team zur klassischen Organigrammfunktion und welche Portalrechte sind relevant?",
+      "expected_answer": "Mein Team ersetzt das klassische Organigramm nicht, es wird aber empfohlen, das Portalrecht Organigramm anzeigen durch das Portalrecht Mein Team und optional Mein Team Organigramm exportieren zu ersetzen, damit die neue Darstellung genutzt wird.",
+      "category": "general"
+    },
+    {
+      "id": "train_193",
+      "question": "Welche Personen oder Stellen werden in Mein Team explizit nicht angezeigt?",
+      "expected_answer": "Unbesetzte Stellen, Mitarbeitende im Status wartend sowie Mitarbeitende, für die vor dem Austrittsdatum eine Abwesenheit mit dem Personalstatus passiv gebucht wurde, werden in Mein Team nicht dargestellt.",
+      "category": "general"
+    },
+    {
+      "id": "train_194",
+      "question": "Welche Stellenklassen werden in Mein Team unterschieden und wie wird dies visualisiert?",
+      "expected_answer": "Es werden unter anderem die Stellenklassen Assistenz, Leitung, Standardstelle, Stabsstelle und Stellvertretung unterschieden, die in Mein Team durch unterschiedliche Farben und Anordnungen hervorgehoben werden.",
+      "category": "general"
+    },
+    {
+      "id": "train_195",
+      "question": "Wozu dient das Systemfeld Reporting an im Zusammenhang mit Mein Team?",
+      "expected_answer": "Das Feld Reporting an legt in der Stellenakte fest, an welche anderen Stellen eine Stellenbesetzung zusätzlich berichtet; diese Sonder-Berichtswege werden in Mein Team grafisch dargestellt, wenn beide Stellen sichtbar sind.",
+      "category": "general"
+    },
+    {
+      "id": "train_196",
+      "question": "Welche Workflowrolle ist mit dem Feld Reporting an verknüpft?",
+      "expected_answer": "Mit dem Feld Reporting an ist die Workflowrolle Reporting Empfangende verknüpft, über die Workflows an die per Reporting an definierte Stelle bzw. deren aktuelle Besetzung gerichtet werden können.",
+      "category": "general"
+    },
+    {
+      "id": "train_197",
+      "question": "Wie navigiert ein Benutzer in der Mein-Team-Ansicht durch das Organigramm?",
+      "expected_answer": "Der Benutzer kann über Plus- und Minus-Icons einzelne Zweige auf- und zuklappen, das Organigramm per Drag mit der Maus verschieben, per Mausrad oder Zoom-Icons vergrößern oder verkleinern und es über ein Symbol in den Vollbildmodus bringen.",
+      "category": "general"
+    },
+    {
+      "id": "train_198",
+      "question": "Welche Informationen und Funktionen bietet die Detailkarte eines Mitarbeitenden in Mein Team?",
+      "expected_answer": "Die Detailkarte zeigt unter anderem Name, Teambezeichnung und Stellenbezeichnung, verlinkt über das Foto auf das Portalprofil und bietet bei entsprechender Berechtigung Icons für den Aufruf der Personalakte, den Chat und eine Videokonferenz.",
+      "category": "general"
+    },
+    {
+      "id": "train_199",
+      "question": "Was ist die Feder-Darstellung in Mein Team und wann ist sie nützlich?",
+      "expected_answer": "Die Feder-Darstellung ist eine alternative Ansicht, in der pro Zeile höchstens zwei Personenkästchen angezeigt werden, was bei stark besetzten Organisationseinheiten für eine schmalere, übersichtlichere Darstellung sorgt.",
+      "category": "general"
+    },
+    {
+      "id": "train_200",
+      "question": "Welche Suchmöglichkeiten bietet Mein Team, um bestimmte Personen oder Funktionen zu finden?",
+      "expected_answer": "In Mein Team gibt es eine Suchfunktion oberhalb der Darstellung, mit der nach Namen sowie nach Stellen- oder Organisationsbezeichnungen gesucht werden kann; die Ergebnisse werden als Vorschläge angezeigt und führen direkt zur Position im Organigramm.",
+      "category": "general"
+    }
+  ]
+}

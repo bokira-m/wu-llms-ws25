@@ -1,0 +1,26 @@
+{
+  "sentence-transformers/all-MiniLM-L6-v2": {
+    "avg_top_similarity": 0.577,
+    "avg_similarity": 0.5336,
+    "avg_relevance": 0.3431,
+    "load_time": 2.11,
+    "eval_time": 2.69,
+    "embedding_dim": 384
+  },
+  "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2": {
+    "avg_top_similarity": 0.6947,
+    "avg_similarity": 0.6603,
+    "avg_relevance": 0.354,
+    "load_time": 2.68,
+    "eval_time": 2.0,
+    "embedding_dim": 384
+  },
+  "sentence-transformers/all-mpnet-base-v2": {
+    "avg_top_similarity": 0.6634,
+    "avg_similarity": 0.6161,
+    "avg_relevance": 0.4008,
+    "load_time": 2.17,
+    "eval_time": 19.75,
+    "embedding_dim": 768
+  }
+}

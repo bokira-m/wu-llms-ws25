@@ -1,0 +1,4 @@
+Model,Dimension,Avg_Top_Similarity,Avg_Relevance,Load_Time,Eval_Time
+all-mpnet-base-v2,768,0.6634,0.4008,2.17,19.75
+paraphrase-multilingual-MiniLM-L12-v2,384,0.6947,0.354,2.68,2.0
+all-MiniLM-L6-v2,384,0.577,0.3431,2.11,2.69

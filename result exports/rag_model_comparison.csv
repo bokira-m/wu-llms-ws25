@@ -1,0 +1,4 @@
+Model,F1_Score,Cosine_Similarity,Precision,Recall,Key_Terms_Ratio,Avg_Response_Time
+gemma2:2b,0.2024,0.2482,0.1313,0.4933,0.3829,7.56
+tinyllama,0.1621,0.204,0.1027,0.4031,0.2667,3.55
+llama2,0.1196,0.1252,0.0781,0.2733,0.1971,11.47

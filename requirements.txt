@@ -1,0 +1,31 @@
+# Core dependencies for RAG system
+pypdf==4.0.1
+pdfplumber==0.10.3
+sentence-transformers==2.3.1
+chromadb==0.4.22
+langchain==0.1.6
+requests==2.31.0
+numpy==1.24.3
+tqdm==4.66.1
+
+# Optional but recommended
+pandas==2.0.3
+openpyxl==3.1.2  # For Excel export of tables
+pytesseract==0.3.10  # For OCR if needed
+pdf2image==1.16.3  # For scanned PDFs
+
+# For fine-tuning (if using Hugging Face models)
+torch>=2.2.0
+transformers>=4.40.0
+datasets>=2.16.1
+evaluate>=0.4.1
+accelerate>=0.28.0
+peft>=0.10.0
+
+# Web UI
+flask==3.0.2
+
+# Evaluation metrics
+scikit-learn>=1.3.0
+rouge-score==0.1.2
+bert-score==0.3.13

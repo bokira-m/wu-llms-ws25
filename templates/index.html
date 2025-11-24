@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rexx HR RAG Q&A System</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .container {
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+        header {
+            background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%);
+            color: #ff3b3b;
+            padding: 32px 24px;
+            text-align: center;
+            margin-bottom: 24px;
+            border-radius: 4px;
+            border: 1px solid #2a2a2a;
+            border-left: 4px solid #ff3b3b;
+        }
+        header h1 {
+            font-size: clamp(1.5em, 4vw, 2.2em);
+            margin-bottom: 8px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        header p {
+            color: #666;
+            font-size: clamp(0.85em, 2vw, 0.95em);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+        @media (min-width: 1024px) {
+            .main-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .input-section {
+            background: #111111;
+            padding: 24px;
+            border-radius: 4px;
+            border: 1px solid #222;
+            border-top: 3px solid #ff3b3b;
+        }
+        .input-group { margin-bottom: 16px; }
+        .input-group label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #888;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        textarea, input[type="text"] {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1px solid #333;
+            border-radius: 4px;
+            font-size: 15px;
+            transition: all 0.15s ease;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            font-family: inherit;
+        }
+        textarea:focus, input:focus {
+            outline: none;
+            border-color: #ff3b3b;
+            box-shadow: 0 0 0 2px rgba(255, 59, 59, 0.2);
+        }
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        textarea::placeholder, input::placeholder {
+            color: #444;
+        }
+        select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #333;
+            border-radius: 4px;
+            font-size: 14px;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            font-family: inherit;
+            cursor: pointer;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23ff3b3b' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+        }
+        select:focus {
+            outline: none;
+            border-color: #ff3b3b;
+        }
+        select option {
+            background: #111;
+            color: #e0e0e0;
+        }
+
+        .btn-row {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        button {
+            padding: 14px 28px;
+            border: none;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            font-family: inherit;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .btn-primary {
+            background: #ff3b3b;
+            color: #000;
+        }
+        .btn-primary:hover {
+            background: #ff5555;
+            box-shadow: 0 4px 20px rgba(255, 59, 59, 0.4);
+            transform: translateY(-1px);
+        }
+        .btn-secondary {
+            background: transparent;
+            color: #666;
+            border: 1px solid #333;
+        }
+        .btn-secondary:hover {
+            background: #1a1a1a;
+            border-color: #444;
+            color: #888;
+        }
+        .btn-small {
+            padding: 8px 16px;
+            font-size: 11px;
+        }
+        button:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+
+        .model-section {
+            background: #111111;
+            padding: 20px;
+            border-radius: 4px;
+            border: 1px solid #222;
+            margin-bottom: 24px;
+            border-left: 4px solid #ff3b3b;
+        }
+        .model-section h3 {
+            color: #ff3b3b;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+            font-weight: 700;
+        }
+        .model-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+        @media (max-width: 600px) {
+            .model-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .model-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .model-group label {
+            font-size: 11px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .model-status {
+            font-size: 11px;
+            color: #00ff88;
+            margin-top: 4px;
+        }
+        .model-status.switching {
+            color: #ffaa00;
+        }
+        .model-status.error {
+            color: #ff3b3b;
+        }
+
+        .test-questions {
+            background: #111111;
+            padding: 24px;
+            border-radius: 4px;
+            border: 1px solid #222;
+            border-top: 3px solid #ff3b3b;
+        }
+        .test-questions h3 {
+            margin-bottom: 16px;
+            color: #e0e0e0;
+            font-weight: 700;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .question-list {
+            max-height: 280px;
+            overflow-y: auto;
+            border: 1px solid #222;
+            border-radius: 4px;
+            background: #0a0a0a;
+        }
+        .question-item {
+            padding: 14px 16px;
+            border-bottom: 1px solid #1a1a1a;
+            cursor: pointer;
+            transition: all 0.1s ease;
+        }
+        .question-item:hover {
+            background: #1a1a1a;
+            border-left: 3px solid #ff3b3b;
+            padding-left: 13px;
+        }
+        .question-item:last-child { border-bottom: none; }
+        .question-item .category {
+            font-size: 10px;
+            color: #ff3b3b;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+        }
+        .question-item .question-text {
+            color: #999;
+            font-size: 14px;
+        }
+
+        .result-section {
+            display: none;
+            grid-column: 1 / -1;
+        }
+        .result-section.visible { display: block; }
+
+        .results-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+        @media (min-width: 768px) {
+            .results-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        @media (min-width: 1200px) {
+            .results-grid {
+                grid-template-columns: 2fr 1fr;
+            }
+        }
+
+        .answer-box {
+            background: #111111;
+            padding: 24px;
+            border-radius: 4px;
+            border: 1px solid #222;
+            border-left: 4px solid #ff3b3b;
+        }
+        .answer-box h3 {
+            color: #ff3b3b;
+            margin-bottom: 16px;
+            font-weight: 700;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .answer-box h3 .model-tag {
+            background: #222;
+            color: #888;
+            padding: 4px 8px;
+            border-radius: 2px;
+            font-size: 10px;
+        }
+        .answer-text {
+            background: #0a0a0a;
+            padding: 20px;
+            border-radius: 4px;
+            border: 1px solid #222;
+            color: #ccc;
+            font-size: 15px;
+            line-height: 1.7;
+        }
+        .response-time {
+            margin-top: 12px;
+            font-size: 12px;
+            color: #444;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .metrics-box {
+            background: #111111;
+            padding: 24px;
+            border-radius: 4px;
+            border: 1px solid #222;
+            border-top: 3px solid #ff3b3b;
+        }
+        .metrics-box h3 {
+            margin-bottom: 16px;
+            color: #e0e0e0;
+            font-weight: 700;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+            gap: 12px;
+        }
+        .metric-card {
+            background: #0a0a0a;
+            padding: 16px 12px;
+            border-radius: 4px;
+            text-align: center;
+            border: 1px solid #222;
+        }
+        .metric-value {
+            font-size: 1.4em;
+            font-weight: 700;
+            color: #ff3b3b;
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+        }
+        .metric-label {
+            font-size: 10px;
+            color: #555;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 6px;
+        }
+        .metric-good { color: #00ff88; }
+        .metric-medium { color: #ffaa00; }
+        .metric-bad { color: #ff3b3b; }
+
+        .sources-box {
+            background: #111111;
+            padding: 24px;
+            border-radius: 4px;
+            border: 1px solid #222;
+            border-top: 3px solid #ff3b3b;
+            grid-column: 1 / -1;
+        }
+        .sources-box h3 {
+            margin-bottom: 16px;
+            color: #e0e0e0;
+            font-weight: 700;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .sources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 16px;
+        }
+        .source-item {
+            background: #0a0a0a;
+            padding: 16px;
+            border-radius: 4px;
+            border: 1px solid #222;
+        }
+        .source-item:hover {
+            border-color: #333;
+        }
+        .source-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .source-filename {
+            font-weight: 600;
+            color: #888;
+            font-size: 12px;
+            word-break: break-all;
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+        }
+        .source-relevance {
+            background: #ff3b3b;
+            color: #000;
+            padding: 4px 10px;
+            border-radius: 2px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .source-snippet {
+            font-size: 13px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .expected-box {
+            background: #1a1500;
+            border: 1px solid #332800;
+            padding: 16px;
+            border-radius: 4px;
+            margin-top: 16px;
+        }
+        .expected-box h4 {
+            color: #ffaa00;
+            margin-bottom: 8px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .expected-box p {
+            color: #886600;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+            grid-column: 1 / -1;
+        }
+        .loading.visible { display: block; }
+        .loading p {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 12px;
+        }
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #222;
+            border-top-color: #ff3b3b;
+            border-radius: 50%;
+            animation: spin 0.6s linear infinite;
+            margin: 0 auto 16px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .stats-bar {
+            background: #111111;
+            padding: 16px 24px;
+            border-radius: 4px;
+            margin-bottom: 24px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 16px;
+            border: 1px solid #222;
+        }
+        .stat-item { text-align: center; }
+        .stat-value {
+            font-weight: 700;
+            color: #ff3b3b;
+            font-size: 14px;
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+        }
+        .stat-label {
+            font-size: 10px;
+            color: #444;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Scrollbar styling */
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: #0a0a0a; }
+        ::-webkit-scrollbar-thumb { background: #333; border-radius: 0; }
+        ::-webkit-scrollbar-thumb:hover { background: #ff3b3b; }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            .container { padding: 16px; }
+            header { padding: 24px 16px; }
+            .input-section, .test-questions, .answer-box, .metrics-box, .sources-box {
+                padding: 20px;
+            }
+            .btn-row { flex-direction: column; }
+            button { width: 100%; }
+            .stats-bar {
+                padding: 12px 16px;
+                gap: 12px;
+            }
+            .sources-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Selection */
+        ::selection {
+            background: #ff3b3b;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rexx HR RAG System</h1>
+            <p>Retrieval-Augmented Generation // Dynamic Model Selection</p>
+        </header>
+
+        <div class="model-section">
+            <h3>Model Configuration</h3>
+            <div class="model-grid">
+                <div class="model-group">
+                    <label>Generator (Ollama)</label>
+                    <select id="generatorSelect" onchange="switchGenerator()">
+                        <option value="">Loading...</option>
+                    </select>
+                    <div class="model-status" id="generatorStatus"></div>
+                </div>
+                <div class="model-group">
+                    <label>Embedding Model</label>
+                    <select id="embeddingSelect" onchange="switchEmbedding()">
+                        <option value="">Loading...</option>
+                    </select>
+                    <div class="model-status" id="embeddingStatus"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-bar" id="statsBar">
+            <div class="stat-item">
+                <div class="stat-value" id="statModel">-</div>
+                <div class="stat-label">Generator</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="statEmbedding">-</div>
+                <div class="stat-label">Embedding</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="statChunks">-</div>
+                <div class="stat-label">Chunks</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="statStatus">INIT...</div>
+                <div class="stat-label">Status</div>
+            </div>
+        </div>
+
+        <div class="main-grid">
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="question">Frage eingeben</label>
+                    <textarea id="question" placeholder="Frage über rexx HR Software..."></textarea>
+                </div>
+                <div class="input-group">
+                    <label for="expected">Erwartete Antwort (optional)</label>
+                    <textarea id="expected" placeholder="Für Bewertung eingeben..."></textarea>
+                </div>
+                <div class="btn-row">
+                    <button class="btn-primary" id="askBtn" onclick="askQuestion()">Absenden</button>
+                    <button class="btn-secondary" onclick="clearAll()">Reset</button>
+                </div>
+            </div>
+
+            <div class="test-questions">
+                <h3>Test-Fragen</h3>
+                <div class="question-list" id="questionList">
+                    <div class="question-item">Laden...</div>
+                </div>
+            </div>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Verarbeitung...</p>
+            </div>
+
+            <div class="result-section" id="results">
+                <div class="results-grid">
+                    <div class="answer-box">
+                        <h3>
+                            <span>Antwort</span>
+                            <span class="model-tag" id="answerModelTag">-</span>
+                        </h3>
+                        <div class="answer-text" id="answerText"></div>
+                        <div class="response-time" id="responseTime"></div>
+                        <div class="expected-box" id="expectedBox" style="display: none;">
+                            <h4>Erwartete Antwort</h4>
+                            <p id="expectedText"></p>
+                        </div>
+                    </div>
+
+                    <div class="metrics-box" id="metricsBox" style="display: none;">
+                        <h3>Metriken</h3>
+                        <div class="metrics-grid">
+                            <div class="metric-card">
+                                <div class="metric-value" id="metricCosine">-</div>
+                                <div class="metric-label">Cosine</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-value" id="metricPrecision">-</div>
+                                <div class="metric-label">Precision</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-value" id="metricRecall">-</div>
+                                <div class="metric-label">Recall</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-value" id="metricF1">-</div>
+                                <div class="metric-label">F1</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-value" id="metricKeyTerms">-</div>
+                                <div class="metric-label">Terms</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sources-box">
+                        <h3>Quellen</h3>
+                        <div class="sources-grid" id="sourcesList"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentGenerator = '';
+        let currentEmbedding = '';
+
+        window.onload = function() {
+            loadModels();
+            loadStats();
+            loadTestQuestions();
+        };
+
+        function loadModels() {
+            fetch('/models')
+                .then(r => r.json())
+                .then(data => {
+                    // Populate generator select
+                    const genSelect = document.getElementById('generatorSelect');
+                    genSelect.innerHTML = data.generators.map(m =>
+                        `<option value="${m}" ${m === data.current_generator ? 'selected' : ''}>${m}</option>`
+                    ).join('');
+                    currentGenerator = data.current_generator;
+
+                    // Populate embedding select
+                    const embSelect = document.getElementById('embeddingSelect');
+                    embSelect.innerHTML = data.embeddings.map(m => {
+                        const shortName = m.split('/').pop();
+                        return `<option value="${m}" ${m === data.current_embedding ? 'selected' : ''}>${shortName}</option>`;
+                    }).join('');
+                    currentEmbedding = data.current_embedding;
+                })
+                .catch(e => {
+                    console.error('Failed to load models:', e);
+                });
+        }
+
+        function loadStats() {
+            fetch('/stats')
+                .then(r => r.json())
+                .then(data => {
+                    document.getElementById('statModel').textContent = data.generator_model || '-';
+                    document.getElementById('statEmbedding').textContent = data.embedding_model ? data.embedding_model.split('/').pop() : '-';
+                    document.getElementById('statChunks').textContent = data.index_size || '-';
+                    document.getElementById('statStatus').textContent = data.status ? data.status.toUpperCase() : 'ERROR';
+                })
+                .catch(e => {
+                    document.getElementById('statStatus').textContent = 'ERROR';
+                });
+        }
+
+        function switchGenerator() {
+            const select = document.getElementById('generatorSelect');
+            const newModel = select.value;
+            const status = document.getElementById('generatorStatus');
+
+            if (newModel === currentGenerator) return;
+
+            status.textContent = 'Switching...';
+            status.className = 'model-status switching';
+            select.disabled = true;
+
+            fetch('/switch_model', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ generator: newModel })
+            })
+            .then(r => r.json())
+            .then(data => {
+                if (data.success) {
+                    currentGenerator = newModel;
+                    status.textContent = `Switched to ${newModel}`;
+                    status.className = 'model-status';
+                    loadStats();
+                    setTimeout(() => { status.textContent = ''; }, 3000);
+                } else {
+                    status.textContent = data.error || 'Switch failed';
+                    status.className = 'model-status error';
+                    select.value = currentGenerator;
+                }
+            })
+            .catch(e => {
+                status.textContent = 'Error: ' + e.message;
+                status.className = 'model-status error';
+                select.value = currentGenerator;
+            })
+            .finally(() => {
+                select.disabled = false;
+            });
+        }
+
+        function switchEmbedding() {
+            const select = document.getElementById('embeddingSelect');
+            const newModel = select.value;
+            const status = document.getElementById('embeddingStatus');
+
+            if (newModel === currentEmbedding) return;
+
+            status.textContent = 'Loading model...';
+            status.className = 'model-status switching';
+            select.disabled = true;
+
+            fetch('/switch_embedding', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ embedding: newModel })
+            })
+            .then(r => r.json())
+            .then(data => {
+                if (data.success) {
+                    currentEmbedding = newModel;
+                    status.textContent = `Loaded ${newModel.split('/').pop()}`;
+                    status.className = 'model-status';
+                    loadStats();
+                    setTimeout(() => { status.textContent = ''; }, 3000);
+                } else {
+                    status.textContent = data.error || 'Switch failed';
+                    status.className = 'model-status error';
+                    select.value = currentEmbedding;
+                }
+            })
+            .catch(e => {
+                status.textContent = 'Error: ' + e.message;
+                status.className = 'model-status error';
+                select.value = currentEmbedding;
+            })
+            .finally(() => {
+                select.disabled = false;
+            });
+        }
+
+        function loadTestQuestions() {
+            fetch('/test_questions')
+                .then(r => r.json())
+                .then(questions => {
+                    const list = document.getElementById('questionList');
+                    list.innerHTML = questions.map(q => `
+                        <div class="question-item" onclick="selectQuestion('${escapeHtml(q.question)}', '${escapeHtml(q.expected_answer)}')">
+                            <div class="category">${q.category}</div>
+                            <div class="question-text">${q.question}</div>
+                        </div>
+                    `).join('');
+                })
+                .catch(e => {
+                    document.getElementById('questionList').innerHTML = '<div class="question-item">Fehler</div>';
+                });
+        }
+
+        function escapeHtml(text) {
+            return text.replace(/'/g, "\\'").replace(/"/g, '\\"').replace(/\n/g, ' ');
+        }
+
+        function selectQuestion(question, expected) {
+            document.getElementById('question').value = question;
+            document.getElementById('expected').value = expected;
+        }
+
+        function askQuestion() {
+            const question = document.getElementById('question').value.trim();
+            const expected = document.getElementById('expected').value.trim();
+
+            if (!question) {
+                alert('Frage eingeben.');
+                return;
+            }
+
+            document.getElementById('loading').classList.add('visible');
+            document.getElementById('results').classList.remove('visible');
+            document.getElementById('askBtn').disabled = true;
+
+            fetch('/ask', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ question, expected_answer: expected })
+            })
+            .then(r => r.json())
+            .then(data => {
+                displayResults(data);
+            })
+            .catch(e => {
+                alert('Error: ' + e.message);
+            })
+            .finally(() => {
+                document.getElementById('loading').classList.remove('visible');
+                document.getElementById('askBtn').disabled = false;
+            });
+        }
+
+        function displayResults(data) {
+            document.getElementById('answerText').textContent = data.answer;
+            document.getElementById('responseTime').textContent = `${data.response_time}s`;
+            document.getElementById('answerModelTag').textContent = data.model_used || currentGenerator;
+
+            if (data.expected_answer) {
+                document.getElementById('expectedBox').style.display = 'block';
+                document.getElementById('expectedText').textContent = data.expected_answer;
+            } else {
+                document.getElementById('expectedBox').style.display = 'none';
+            }
+
+            if (data.metrics) {
+                document.getElementById('metricsBox').style.display = 'block';
+                setMetric('metricCosine', data.metrics.cosine_similarity);
+                setMetric('metricPrecision', data.metrics.precision);
+                setMetric('metricRecall', data.metrics.recall);
+                setMetric('metricF1', data.metrics.f1_score);
+                setMetric('metricKeyTerms', data.metrics.key_terms_ratio);
+            } else {
+                document.getElementById('metricsBox').style.display = 'none';
+            }
+
+            const sourcesList = document.getElementById('sourcesList');
+            sourcesList.innerHTML = data.sources.map(s => `
+                <div class="source-item">
+                    <div class="source-header">
+                        <span class="source-filename">${s.filename}</span>
+                        <span class="source-relevance">${s.relevance}%</span>
+                    </div>
+                    <div class="source-snippet">${s.snippet}</div>
+                </div>
+            `).join('');
+
+            document.getElementById('results').classList.add('visible');
+        }
+
+        function setMetric(id, value) {
+            const el = document.getElementById(id);
+            el.textContent = (value * 100).toFixed(0) + '%';
+            el.className = 'metric-value';
+            if (value >= 0.7) el.classList.add('metric-good');
+            else if (value >= 0.4) el.classList.add('metric-medium');
+            else el.classList.add('metric-bad');
+        }
+
+        function clearAll() {
+            document.getElementById('question').value = '';
+            document.getElementById('expected').value = '';
+            document.getElementById('results').classList.remove('visible');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+graph TB
+    subgraph "Data Sources"
+        PDF[("PDF Documents<br/>(rexx_pdfs/)")]
+    end
+
+    subgraph "RAG System Core"
+        direction TB
+        RAG[RAG System<br/>rag_system.py]
+        EMB[Embedding Model<br/>MiniLM-L6-v2]
+        GEN[Generator<br/>Ollama Llama2]
+        VEC[(Vector Store<br/>ChromaDB)]
+    end
+
+    subgraph "Evaluation Pipeline"
+        direction TB
+        BASELINE[Baseline Evaluator<br/>evaluate_baseline.py]
+        FINETUNE[Fine-tuned Evaluator<br/>evaluate_finetuned.py]
+        RAGEVAL[RAG Evaluator<br/>evaluate_rag.py]
+        ERROR[Error Analysis<br/>error_analysis.py]
+    end
+
+    subgraph "Model Training"
+        TRAIN[Fine-tuning Script<br/>finetune_model.py]
+        LORA[LoRA Adapter]
+        TINYLLAMA[TinyLlama Base Model]
+    end
+
+    subgraph "Test Data"
+        DATASET[("Test Dataset<br/>rexx_qa_dataset_curated.json<br/>50 test questions<br/>200 training questions")]
+    end
+
+    subgraph "Results & Analysis"
+        BASELINE_RES[("Baseline Results<br/>baseline_results.json<br/>F1: 0.2048")]
+        FINETUNE_RES[("Fine-tuned Results<br/>finetuned_results.json<br/>F1: 0.2155")]
+        RAG_RES[("RAG Results<br/>rag_results.json<br/>F1: 0.0986")]
+        ERROR_RES[("Error Analysis<br/>error_analysis_baseline.json")]
+    end
+
+    subgraph "Metrics Computation"
+        METRICS[Evaluation Metrics<br/>- Cosine Similarity<br/>- Precision/Recall<br/>- F1 Score<br/>- Key Terms Ratio]
+    end
+
+    %% Data Flow
+    PDF -->|Extract & Chunk| RAG
+    RAG -->|Encode Text| EMB
+    EMB -->|Store Embeddings| VEC
+    RAG -->|Retrieve Context| VEC
+    VEC -->|Top-K Documents| RAG
+    RAG -->|Generate with Context| GEN
+    GEN -->|Answer| RAG
+
+    %% Training Flow
+    DATASET -->|Training Data| TRAIN
+    TINYLLAMA -->|Base Model| TRAIN
+    TRAIN -->|LoRA Weights| LORA
+    LORA -->|Fine-tuned Model| FINETUNE
+
+    %% Evaluation Flow
+    DATASET -->|Test Questions| BASELINE
+    DATASET -->|Test Questions| FINETUNE
+    DATASET -->|Test Questions| RAGEVAL
+    
+    BASELINE -->|Generate Answers| BASELINE_RES
+    FINETUNE -->|Generate Answers| FINETUNE_RES
+    RAGEVAL -->|Query RAG| RAG
+    RAG -->|Answers| RAGEVAL
+    RAGEVAL -->|Generate Results| RAG_RES
+
+    %% Metrics & Analysis
+    BASELINE_RES -->|Calculate| METRICS
+    FINETUNE_RES -->|Calculate| METRICS
+    RAG_RES -->|Calculate| METRICS
+    
+    BASELINE_RES -->|Analyze Errors| ERROR
+    ERROR -->|Detailed Analysis| ERROR_RES
+
+    %% Styling
+    classDef dataClass fill:#e1f5ff,stroke:#0288d1,stroke-width:2px
+    classDef coreClass fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef evalClass fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef resultClass fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    classDef trainClass fill:#fff9c4,stroke:#f9a825,stroke-width:2px
+
+    class PDF,DATASET,VEC dataClass
+    class RAG,EMB,GEN coreClass
+    class BASELINE,FINETUNE,RAGEVAL,ERROR,METRICS evalClass
+    class BASELINE_RES,FINETUNE_RES,RAG_RES,ERROR_RES resultClass
+    class TRAIN,LORA,TINYLLAMA trainClass
